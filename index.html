@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChangeSense // Webpage Change Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👁️</text></svg>">
+</head>
+<body>
+
+  <!-- App Shell Container -->
+  <div class="app-container">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="app-sidebar">
+      <div class="sidebar-brand">
+        <span class="logo-eye">👁️</span>
+        <span class="logo-text">ChangeSense</span>
+      </div>
+      
+      <nav class="sidebar-nav">
+        <button id="nav-monitors" class="nav-item active" onclick="switchTab('monitors')">
+          <span class="nav-icon">📊</span> Monitors
+        </button>
+        <button id="nav-settings" class="nav-item" onclick="switchTab('settings')">
+          <span class="nav-icon">⚙️</span> Settings
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="mode-indicator" id="mode-badge">
+          <span class="status-dot green"></span> Server Mode
+        </div>
+        <div class="github-repo-link" id="github-info-block" style="display: none;">
+          <a href="#" id="github-repo-anchor" target="_blank" class="repo-badge">🔗 github-repo</a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="app-main">
+      
+      <!-- Top Header -->
+      <header class="app-header">
+        <div class="header-info">
+          <h1 id="page-title">Monitored Webpages</h1>
+          <p id="page-subtitle" class="text-muted">Track visual changes and receive alerts</p>
+        </div>
+        
+        <div class="header-actions">
+          <button id="btn-trigger-all" class="btn btn-secondary" onclick="triggerAllChecks()">
+            <span class="icon">🔄</span> Scan Now
+          </button>
+          <button id="btn-add-monitor" class="btn btn-primary" onclick="openMonitorModal()">
+            <span class="icon">➕</span> Add Monitor
+          </button>
+        </div>
+      </header>
+
+      <!-- Panel: Monitors List (Default) -->
+      <section id="panel-monitors" class="app-panel active">
+        <!-- Dashboard Stats Row -->
+        <div class="stats-row">
+          <div class="stat-card">
+            <div class="stat-value" id="stat-total">0</div>
+            <div class="stat-label">Total Sites</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value text-success" id="stat-active">0</div>
+            <div class="stat-label">Active Trackers</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value text-warning" id="stat-changes">0</div>
+            <div class="stat-label">Changes Detected</div>
+          </div>
+        </div>
+
+        <!-- Grid of Monitored Pages -->
+        <div class="monitors-grid" id="monitors-list">
+          <div class="empty-state" id="empty-state-loader">
+            <div class="spinner"></div>
+            <p>Loading monitors configuration...</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Panel: Configuration / SMTP Settings -->
+      <section id="panel-settings" class="app-panel">
+        <div class="settings-grid">
+          
+          <!-- Email / SMTP Settings -->
+          <div class="settings-card">
+            <div class="card-header">
+              <h2>📬 Email SMTP Configurations</h2>
+              <p class="text-muted">Set up credentials to receive change notifications automatically</p>
+            </div>
+            <form id="form-settings" onsubmit="saveSettings(event)" class="settings-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="smtp_host">SMTP Server Host</label>
+                  <input type="text" id="smtp_host" placeholder="smtp.gmail.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="smtp_port">SMTP Port</label>
+                  <input type="number" id="smtp_port" placeholder="587" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="smtp_user">SMTP Username / Email Address</label>
+                  <input type="email" id="smtp_user" placeholder="yourmail@domain.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="smtp_pass">SMTP Password / App Password</label>
+                  <input type="password" id="smtp_pass" placeholder="••••••••••••••••">
+                  <small class="form-hint">Leave blank to keep existing password.</small>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email_from">From Email Address</label>
+                  <input type="email" id="email_from" placeholder="sender@domain.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="email_to">To Notification Email Address</label>
+                  <input type="email" id="email_to" placeholder="recipient@domain.com" required>
+                </div>
+              </div>
+
+              <div class="form-group-checkbox">
+                <input type="checkbox" id="smtp_secure" checked>
+                <label for="smtp_secure">Use SSL/TLS Connection (recommended)</label>
+              </div>
+
+              <div class="settings-actions">
+                <button type="button" class="btn btn-secondary" onclick="testEmailConnection()">Test Connection</button>
+                <button type="submit" class="btn btn-primary">Save SMTP Settings</button>
+              </div>
+            </form>
+          </div>
+
+          <!-- GitHub Serverless Settings -->
+          <div class="settings-card highlight-card">
+            <div class="card-header">
+              <h2>🐙 GitHub Serverless Mode (Optional)</h2>
+              <p class="text-muted">Run entirely inside GitHub (using GitHub Actions scheduler and GitHub Pages hosting). Configure your token here to commit changes directly to Git.</p>
+            </div>
+            <form id="form-github-settings" onsubmit="saveGithubSettings(event)" class="settings-form">
+              <div class="form-group">
+                <label for="gh_repo">GitHub Repository Path</label>
+                <input type="text" id="gh_repo" placeholder="username/my-tracker-repo">
+                <small class="form-hint">Format: <code>username/repository</code></small>
+              </div>
+
+              <div class="form-group">
+                <label for="gh_branch">Target Branch</label>
+                <input type="text" id="gh_branch" placeholder="main">
+              </div>
+
+              <div class="form-group">
+                <label for="gh_token">GitHub Personal Access Token (PAT)</label>
+                <input type="password" id="gh_token" placeholder="github_pat_••••••••">
+                <small class="form-hint">Requires <code>repo</code> write permission to commit changes. Saved locally in browser storage.</small>
+              </div>
+
+              <div class="settings-actions">
+                <button type="button" id="btn-gh-disconnect" class="btn btn-danger-outline" onclick="disconnectGitHub()" style="display:none;">Disconnect GitHub</button>
+                <button type="submit" class="btn btn-primary">Activate GitHub Mode</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Detail/History Sliding Sidebar (Drawer) -->
+  <div class="drawer-overlay" id="history-drawer-overlay" onclick="closeHistoryDrawer()"></div>
+  <div class="history-drawer" id="history-drawer">
+    <div class="drawer-header">
+      <div class="drawer-title-group">
+        <h2 id="drawer-site-name">Website History</h2>
+        <a href="#" id="drawer-site-url" target="_blank" class="drawer-site-url text-muted">visit url 🔗</a>
+      </div>
+      <button class="btn-close" onclick="closeHistoryDrawer()">✕</button>
+    </div>
+    
+    <div class="drawer-body">
+      <!-- Grid layout for history split -->
+      <div class="history-container">
+        
+        <!-- Archive Timeline List -->
+        <div class="history-timeline">
+          <h3>🕒 Captured Versions</h3>
+          <div class="timeline-list" id="history-timeline-list">
+            <!-- Timeline items populated dynamically -->
+          </div>
+        </div>
+
+        <!-- Diff Viewer Panel -->
+        <div class="diff-viewer-panel">
+          <div class="diff-header-bar">
+            <h3 id="diff-version-title">Diff Visualizer</h3>
+            <div class="diff-mode-selectors">
+              <button id="diff-mode-split" class="btn-toggle active" onclick="setDiffMode('split')">Split</button>
+              <button id="diff-mode-unified" class="btn-toggle" onclick="setDiffMode('unified')">Unified</button>
+              <button id="diff-mode-raw" class="btn-toggle" onclick="setDiffMode('raw')">Full Text</button>
+            </div>
+          </div>
+          
+          <div class="diff-meta-stats" id="diff-meta-stats" style="display: none;">
+            <span class="badge diff-stat-added" id="diff-stat-added">+0 added</span>
+            <span class="badge diff-stat-removed" id="diff-stat-removed">-0 removed</span>
+            <span class="text-muted" id="diff-similarity-text">Similarity: 1.0000</span>
+          </div>
+
+          <!-- Diff Container -->
+          <div class="diff-content-wrapper" id="diff-view-content">
+            <div class="diff-empty-state">
+              <span>👈 Select a version from the timeline to view changes</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Add/Edit Monitor Modal -->
+  <div class="modal-overlay" id="monitor-modal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 id="modal-title">Add Monitor</h2>
+        <button class="btn-close" onclick="closeMonitorModal()">✕</button>
+      </div>
+      
+      <div class="modal-body">
+        <form id="form-monitor" onsubmit="submitMonitorForm(event)">
+          <input type="hidden" id="monitor_id">
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="monitor_name">Monitor Label</label>
+              <input type="text" id="monitor_name" placeholder="e.g. My Website Home Page" required>
+            </div>
+            <div class="form-group">
+              <label for="monitor_url">Webpage URL</label>
+              <input type="url" id="monitor_url" placeholder="https://example.com/item" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="check_interval_mins">Scan Interval (Minutes)</label>
+              <select id="check_interval_mins" required>
+                <option value="15">Every 15 minutes</option>
+                <option value="30">Every 30 minutes</option>
+                <option value="60" selected>Every hour</option>
+                <option value="360">Every 6 hours</option>
+                <option value="720">Every 12 hours</option>
+                <option value="1440">Daily</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="sensitivity">Sensitivity Setting</label>
+              <select id="sensitivity" required>
+                <option value="always">Always Alert (High - 100%)</option>
+                <option value="high">High Sensitivity (99.9% Similarity)</option>
+                <option value="medium" selected>Medium Sensitivity (99% Similarity)</option>
+                <option value="low">Low Sensitivity (95% Similarity)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="min_char_diff">Min Character Difference</label>
+              <input type="number" id="min_char_diff" value="0" min="0" placeholder="e.g. 10 characters">
+              <small class="form-hint">Ignore changes affecting fewer than this many characters.</small>
+            </div>
+            <div class="form-group-checkbox inline-checkbox">
+              <input type="checkbox" id="monitor_active" checked>
+              <label for="monitor_active">Active Monitoring</label>
+            </div>
+          </div>
+
+          <!-- Advanced Selector Filtering -->
+          <div class="accordion-section">
+            <div class="accordion-toggle" onclick="toggleAccordion('selectors-accordion')">
+              <span>🔍 Advanced HTML Filters (Ignore/Include Selector Settings)</span>
+              <span class="accordion-icon" id="selectors-accordion-icon">▼</span>
+            </div>
+            
+            <div class="accordion-content" id="selectors-accordion">
+              <p class="text-muted small-text">Use CSS selectors (like <code>.price</code>, <code>#content-div</code>) to pinpoint exact elements or ignore noise like timestamp banners.</p>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="include_selectors">Include Selectors (Whitelist)</label>
+                  <input type="text" id="include_selectors" placeholder="e.g. #article-body, .product-price">
+                  <small class="form-hint">Only monitor content inside these selectors. Comma separated.</small>
+                </div>
+                <div class="form-group">
+                  <label for="ignore_selectors">Ignore Selectors (Blacklist)</label>
+                  <input type="text" id="ignore_selectors" placeholder="e.g. .advertisement, footer, #cookies-notice">
+                  <small class="form-hint">Decompose/remove these selectors before comparison. Comma separated.</small>
+                </div>
+              </div>
+
+              <!-- Selector Tester Widget -->
+              <div class="selector-tester-box">
+                <h4>🧪 CSS Selector Validator & Tester</h4>
+                <p class="small-text text-muted mb-2">Test how your filters execute against the target webpage before saving.</p>
+                <button type="button" class="btn btn-secondary btn-sm" onclick="runSelectorTest()">Run Fetch & Filter Test</button>
+                
+                <div id="tester-loader" class="tester-loader" style="display: none;">
+                  <div class="spinner spinner-sm"></div> Running fetch check...
+                </div>
+                
+                <div id="tester-output-container" class="tester-output-container" style="display: none;">
+                  <div class="tester-meta">
+                    <span class="badge" id="test-badge-chars">0 characters</span>
+                    <span class="badge" id="test-badge-words">0 words</span>
+                    <span class="badge" id="test-badge-lines">0 lines</span>
+                  </div>
+                  <pre id="tester-output" class="tester-output-code"></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" onclick="closeMonitorModal()">Cancel</button>
+            <button type="submit" class="btn btn-primary" id="btn-save-monitor">Save Monitor</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div class="toast" id="toast">Changes saved successfully!</div>
+
+</body>
+</html>
