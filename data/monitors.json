@@ -9,9 +9,9 @@
     "active": true,
     "include_selectors": "",
     "ignore_selectors": "",
-    "last_checked": null,
-    "last_changed": null,
-    "status": "pending",
+    "last_checked": "2026-07-08T12:33:41.328374",
+    "last_changed": "2026-07-08T12:33:41.328374",
+    "status": "success",
     "last_error": null
   }
 ]

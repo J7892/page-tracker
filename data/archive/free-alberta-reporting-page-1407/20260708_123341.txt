@@ -1,0 +1,185 @@
+Skip to Content
+
+Search for
+
+OFS Login
+
+About Us
+
+Jobs
+
+Complaints
+
+Contact Us
+
+Search for
+
+Home
+
+Overview
+
+Financial Period
+
+Parties
+
+Constituency Associations
+
+Candidates
+
+Nomination Contests
+
+Nomination Contestants
+
+Leadership Contests
+
+Citizen Initiative Petitions
+
+Recall Petitions
+
+Third Party Advertisers
+
+Contributor Search
+
+Contributions Data
+
+About  Us
+
+Facebook
+
+Twitter
+
+LinkedIn
+
+YouTube
+
+Home
+> Financial Disclosure
+> Citizen Initiative Petitions
+
+Citizen Initiative Petitions
+
+Amendments to the citizen initiative provisions effective May 1, 2026, extended the timeframe for citizen initiative petition proponents to file their financial reports. The due date for A Referendum Relating to Alberta Independence is revised to July 3, 2026 and No More Coal Mining in Alberta’s Rockies is revised to August 10, 2026.
+
+Year
+
+Citizen Initiative Petitions
+
+Proponent
+
+Petition Issue Date
+
+Financial Statement
+
+2025
+2025 Alberta Forever Canada
+THOMAS LUKASZUKBrent Rathgeber, CFO
+July 30, 2025
+
+Financial Statement  As Submitted
+Contributions Report As Submitted
+(Download as Excel)
+
+2025
+2025 Alberta Funds Public Schools
+ALICIA TAYLORJoseph Madsen, CFO
+October 14, 2025
+
+Financial Statement  As Submitted
+Contributions Report As Submitted
+(Download as Excel)
+
+2026
+2026 A Referendum Relating to Alberta Independence
+MITCH SYLVESTREMr. Gregory Hartzler, CFO
+January 3, 2026
+
+Due: July 3, 2026
+
+2026
+2026 No New Coal Mining in Alberta's Rockies
+CORB LUNDJessie Westers, CFO
+February 11, 2026
+
+Due: August 10, 2026
+
+A Mark That Matters
+
+© Elections Alberta
+
+Privacy & Security
+
+Terms & Conditions
+
+Site Map
+
+Facebook
+
+Twitter
+
+LinkedIn
+
+YouTube
+
+Back to Top
+
+@context: https://schema.org
+
+--- @graph ---
+[Item #1]
+@type: Organization
+@id: https://www.elections.ab.ca/#organization
+name: Elections Alberta
+url: https://www.elections.ab.ca/
+
+--- logo ---
+@type: ImageObject
+@id: https://www.elections.ab.ca/#logo
+inLanguage: en-CA
+url: https:/elections.ab.ca/wp-content/uploads/OCEO_NoTag.jpg
+width: 1309
+height: 946
+caption: Elections Alberta
+
+--- image ---
+@id: https://www.elections.ab.ca/#logo
+
+[Item #2]
+@type: WebSite
+@id: https://www.elections.ab.ca/#website
+url: https://www.elections.ab.ca/
+name: Elections Alberta
+description: The office responsible for the administration of provincial elections, by-elections and referenda.
+
+--- publisher ---
+@id: https://www.elections.ab.ca/#organization
+
+--- potentialAction ---
+[Item #1]
+@type: SearchAction
+target: https://www.elections.ab.ca/?s={search_term_string}
+query-input: required name=search_term_string
+inLanguage: en-CA
+
+[Item #3]
+@type: WebPage
+@id: https://as-cac-webwin-01.azurewebsites.net/#webpage
+url: https://as-cac-webwin-01.azurewebsites.net/
+name: Elections Alberta | Chief Electoral Office
+
+--- isPartOf ---
+@id: https://www.elections.ab.ca/#website
+
+--- about ---
+@id: https://www.elections.ab.ca/#organization
+datePublished: 2015-01-13T23:55:19+00:00
+dateModified: 2020-04-23T19:56:25+00:00
+description: Welcome to the homepage of Elections Alberta, the office responsible for the administration of provincial elections, by-elections and referenda.
+inLanguage: en-CA
+
+--- potentialAction ---
+[Item #1]
+@type: ReadAction
+
+--- target ---
+[Item #1]
+https://as-cac-webwin-01.azurewebsites.net/
