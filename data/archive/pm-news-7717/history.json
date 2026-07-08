@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "2026-07-05T00:41:42.598832",
+    "changes_summary": "Initial version captured",
+    "filename": "20260705_004142.txt",
+    "ratio": 1.0,
+    "added": 0,
+    "removed": 0
+  },
+  {
+    "timestamp": "2026-07-05T21:56:33.889999",
+    "changes_summary": "Similarity: 0.6048. Added 48 lines, removed 0 lines.",
+    "filename": "20260705_215633.txt",
+    "ratio": 0.6048434731246308,
+    "added": 48,
+    "removed": 0
+  },
+  {
+    "timestamp": "2026-07-06T05:06:22.231502",
+    "changes_summary": "Similarity: 0.6826. Added 117 lines, removed 0 lines.",
+    "filename": "20260706_050622.txt",
+    "ratio": 0.6825603236526514,
+    "added": 117,
+    "removed": 0
+  },
+  {
+    "timestamp": "2026-07-06T17:38:47.958144",
+    "changes_summary": "Similarity: 0.6432. Added 16 lines, removed 16 lines.",
+    "filename": "20260706_173847.txt",
+    "ratio": 0.6431986093003043,
+    "added": 16,
+    "removed": 16
+  },
+  {
+    "timestamp": "2026-07-06T19:48:17.110545",
+    "changes_summary": "Similarity: 0.7568. Added 8 lines, removed 8 lines.",
+    "filename": "20260706_194817.txt",
+    "ratio": 0.7568259385665529,
+    "added": 8,
+    "removed": 8
+  },
+  {
+    "timestamp": "2026-07-06T21:24:36.165095",
+    "changes_summary": "Similarity: 0.7291. Added 8 lines, removed 8 lines.",
+    "filename": "20260706_212436.txt",
+    "ratio": 0.7291054178916422,
+    "added": 8,
+    "removed": 8
+  },
+  {
+    "timestamp": "2026-07-06T23:02:12.225589",
+    "changes_summary": "Similarity: 0.6043. Added 8 lines, removed 8 lines.",
+    "filename": "20260706_230212.txt",
+    "ratio": 0.6043074324324325,
+    "added": 8,
+    "removed": 8
+  }
+]

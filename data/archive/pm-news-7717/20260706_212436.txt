@@ -1,0 +1,309 @@
+Skip to main content
+
+Main Container
+
+Prime Minister of Canada
+
+Navigation
+
+PM menu
+
+News
+
+All News
+
+News Releases
+
+Statements
+
+Readouts
+
+Speeches
+
+Media Advisories
+
+About
+
+The Ministry
+
+Cabinet
+
+Secretaries of State
+
+Parliamentary Secretaries
+
+Committees
+
+Mandate Letter
+
+Open Government
+
+Connect
+
+Media
+
+Photos
+
+Videos
+
+Toggle navigation
+
+Menu
+
+Prime Minister of Canada
+
+fr
+
+Main navigation-Mobile
+
+News
+
+All News
+
+News Releases
+
+Statements
+
+Readouts
+
+Speeches
+
+Media Advisories
+
+About
+
+The Ministry
+
+Cabinet
+
+Secretaries of State
+
+Parliamentary Secretaries
+
+Committees
+
+Mandate Letter
+
+Open Government
+
+Connect
+
+Media
+
+Photos
+
+Videos
+
+Privacy Statement
+
+Ownership & Usage
+
+Social Media Use
+
+Help
+
+fr
+
+News
+
+Type keyword(s)SearchEnter the terms you wish to search for.
+
+News Types Menu
+
+All News
+
+News Releases
+
+Statements
+
+Readouts
+
+Speeches
+
+Media Advisories
+
+Subscribe to updates
+
+Main Content
+
+×
+
+Share this Page
+
+-
+
+Footer Menus
+
+Privacy Statement
+
+Ownership & Usage
+
+Social Media Use
+
+Help
+
+Government of Canada logo
+
+--- PM News Feed ---
+News Releases
+
+Prime Minister Carney announces the preferred supplier for the Canadian Patrol Submarine Project – the largest defence procurement in Canadian history
+
+July 6, 2026
+
+Prime Minister Carney announces the preferred supplier for the Canadian Patrol Submarine Project – the largest defence procurement in Canadian history
+
+Statements
+
+Statement by Prime Minister Carney on the retirement of Colonel Jeremy Hansen
+
+July 6, 2026
+
+Statement by Prime Minister Carney on the retirement of Colonel Jeremy Hansen
+
+News Releases
+
+Prime Minister Carney announces the appointment of new Chief Justice of the Superior Court of Justice of Ontario
+
+July 6, 2026
+
+Prime Minister Carney announces the appointment of new Chief Justice of the Superior Court of Justice of Ontario
+
+News Releases
+
+Prime Minister Carney announces the appointment of new Chief Justice of the Federal Court
+
+July 6, 2026
+
+Prime Minister Carney announces the appointment of new Chief Justice of the Federal Court
+
+Media Advisories
+
+Monday, July 6, 2026
+
+July 5, 2026
+
+Monday, July 6, 2026
+
+Statements
+
+Statement by Prime Minister Carney on the United States’ semiquincentennial
+
+July 4, 2026
+
+Statement by Prime Minister Carney on the United States’ semiquincentennial
+
+News Releases
+
+Canada and Alberta advance west coast pipeline project proposal and Pathways Project Carbon Capture Initiative – to build a stronger, more resilient Canadian economy
+
+July 2, 2026
+
+Canada and Alberta advance west coast pipeline project proposal and Pathways Project Carbon Capture Initiative – to build a stronger, more resilient Canadian economy
+
+News Releases
+
+Prime Minister Carney announces new partnerships with the Philippines in trade, energy, defence, and tourism
+
+July 2, 2026
+
+Prime Minister Carney announces new partnerships with the Philippines in trade, energy, defence, and tourism
+
+Statements
+
+Joint statement by the Prime Minister of Canada and the President of the Republic of the Philippines
+
+July 2, 2026
+
+Joint statement by the Prime Minister of Canada and the President of the Republic of the Philippines
+
+Readouts
+
+Prime Minister Carney meets with President of the Philippines Ferdinand Marcos Jr.
+
+July 2, 2026
+
+Prime Minister Carney meets with President of the Philippines Ferdinand Marcos Jr.
+
+Pagination
+
+Current page
+1
+
+Page
+2
+
+Page
+3
+
+Page
+4
+
+Page
+5
+
+Page
+6
+
+Page
+7
+
+Page
+8
+
+Page
+9
+
+Next page
+NEXT →
+
+Last page
+LAST
+
+Show More--- clientside_validation_jquery ---
+validate_all_ajax_forms: 2
+force_validate_on_blur: False
+force_html5_validation: False
+
+--- messages ---
+required: This field is required.
+remote: Please fix this field.
+email: Please enter a valid email address.
+url: Please enter a valid URL.
+date: Please enter a valid date.
+dateISO: Please enter a valid date (ISO).
+number: Please enter a valid number.
+digits: Please enter only digits.
+equalTo: Please enter the same value again.
+maxlength: Please enter no more than {0} characters.
+minlength: Please enter at least {0} characters.
+rangelength: Please enter a value between {0} and {1} characters long.
+range: Please enter a value between {0} and {1}.
+max: Please enter a value less than or equal to {0}.
+min: Please enter a value greater than or equal to {0}.
+step: Please enter a multiple of {0}.
+
+--- bootstrap ---
+forms_has_error_value_toggle: 1
+modal_animation: 1
+modal_backdrop: true
+modal_focus_input: 1
+modal_keyboard: 1
+modal_select_text: 1
+modal_show: 1
+modal_size:
+popover_enabled: 1
+popover_animation: 1
+popover_auto_close: 1
+popover_container: body
+popover_content:
+popover_delay: 0
+popover_html: 0
+popover_placement: right
+popover_selector:
+popover_title:
+popover_trigger: click
+
+--- user ---
+uid: 0
+permissionsHash: dfada2f58b442dffe62043623b324b975ddbabfc0f03cd40d981026ec04a447e
