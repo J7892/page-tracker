@@ -1,20 +1,5 @@
 [
   {
-    "id": "pm-news-7717",
-    "name": "PM news",
-    "url": "https://www.pm.gc.ca/en/news",
-    "check_interval_mins": 60,
-    "sensitivity": "always",
-    "min_char_diff": 0,
-    "active": true,
-    "include_selectors": "",
-    "ignore_selectors": "",
-    "last_checked": "2026-07-08T12:24:14.772704",
-    "last_changed": "2026-07-08T12:24:14.772704",
-    "status": "success",
-    "last_error": null
-  },
-  {
     "id": "rcmp-news-releases-1042",
     "name": "RCMP news releases",
     "url": "https://rcmp.ca/en/news",
