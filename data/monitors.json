@@ -1,17 +1,1 @@
-[
-  {
-    "id": "rcmp-news-releases-1042",
-    "name": "RCMP news releases",
-    "url": "https://rcmp.ca/en/news",
-    "check_interval_mins": 60,
-    "sensitivity": "always",
-    "min_char_diff": 0,
-    "active": true,
-    "include_selectors": "",
-    "ignore_selectors": "",
-    "last_checked": "2026-07-08T12:24:16.201288",
-    "last_changed": "2026-07-08T12:24:16.201288",
-    "status": "success",
-    "last_error": null
-  }
-]
+[]
