@@ -13,5 +13,20 @@
     "last_changed": "2026-07-08T12:33:41.328374",
     "status": "success",
     "last_error": null
+  },
+  {
+    "id": "referendum-weekly-6898",
+    "name": "referendum weekly",
+    "url": "https://efpublic.elections.ab.ca/efRTPAs.cfm?MID=TPAS_TR&TPATYPE=R",
+    "check_interval_mins": 60,
+    "sensitivity": "high",
+    "min_char_diff": 0,
+    "active": true,
+    "include_selectors": "",
+    "ignore_selectors": "",
+    "last_checked": null,
+    "last_changed": null,
+    "status": "pending",
+    "last_error": null
   }
 ]
