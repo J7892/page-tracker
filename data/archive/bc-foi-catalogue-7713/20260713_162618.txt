@@ -1,0 +1,10379 @@
+Skip to main contentSkip to main navigationAccessibility StatementSearch CancelMenuFind informationEmployment, business and economic developmentData and information managementBirth, adoption, death, marriage and divorceBritish Columbians and our governmentsEducation and trainingFarming, natural resources and industryDriving and transportationFamily and social supportsHealthEnvironmental protection and sustainabilityHousing and tenancyLaw, crime and justicePublic safety and emergency servicesSports, recreation, arts and cultureTaxes and tax creditsTourism and immigrationMoreCareers & MyHRServicesFormsNewsContact usHome/British Columbians and our governments/Strategies, plans and initiatives/Open information/Search for Information Releases (FOI Requests)Search for Information Releases (FOI Requests)Welcome to B.C.'s catalogue of public information. Here is a summary of information requested and processed ordered by most recently published. SearchFor best search results, make sure the keywords you enter are spelled correctly.The B.C. Public Service acknowledges the territories of First Nations around B.C. and is grateful to carry out our work on these lands. We acknowledge the rights, interests, priorities, and concerns of all Indigenous Peoples - First Nations, Métis, and Inuit - respecting and acknowledging their distinct cultures, histories, rights, laws, and governments.We can help in over 220 languages and through other accessible options. Call, email or text us, or find a service centreMore infoHomeAbout gov.bc.caDisclaimerPrivacyAccessibilityCopyrightContact us© 2026 Government of British Columbia--- props ---
+--- pageProps ---
+errorCode: False
+
+--- data ---
+correlationId: 2cc5c9d1-d484-43d8-81d7-5745bc80ffc3
+requestId: 6ae9dd40-382a-4ffe-acdc-b319713d09cb
+request: /cmf-ms-orchestrator/orchestrator/compose/search/4BAD1D13C68243D1960FECBBF7B8B091
+apiVersion: 1.1
+
+--- params ---
+--- q ---
+[Item #1]
+FOI
+id: 4BAD1D13C68243D1960FECBBF7B8B091
+statusCode: 200
+
+--- results ---
+[Item #1]
+id: cefbe08fd4ec488cab54fbdbdd591aca
+sourceId: 4BAD1D13C68243D1960FECBBF7B8B091
+
+--- site ---
+id: SITE_GOV
+key: gov
+url: https://alpha.gov.bc.ca
+type: PAGE
+subtype: SEARCH
+url: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091
+languageCode: en
+savedDate: 1680257035933
+savedBy: IDIR\SABOLDUC
+publishedDate: 1680257050641
+publishedBy: IDIR\SABOLDUC
+
+--- components ---
+[Item #1]
+id: 2cc876119c174395ba1944218949c6f9
+name: Search for Information Releases (FOI Requests)
+orderWeight: 0
+type: PAGE
+
+--- fields ---
+[Item #1]
+name: Hide Page From Navigation
+orderWeight: 0
+value: true
+type: BOOLEAN
+role: CONFIGURATION
+
+[Item #2]
+name: Hide Navigation
+orderWeight: 0
+value: false
+type: BOOLEAN
+role: CONFIGURATION
+
+[Item #3]
+name: Disallow Search Indexing
+orderWeight: 0
+value: false
+type: BOOLEAN
+role: CONFIGURATION
+
+[Item #4]
+name: Hide Page from IA
+orderWeight: 0
+value: false
+type: BOOLEAN
+role: CONFIGURATION
+
+[Item #5]
+name: Configured Environment
+orderWeight: 4
+value: RT
+type: STRING
+role: CONFIGURATION
+
+[Item #6]
+name: land.acknowledgement.text
+orderWeight: 5
+value: The B.C. Public Service acknowledges the territories of First Nations around B.C. and is grateful to carry out our work on these lands. We acknowledge the rights, interests, priorities, and concerns of all Indigenous Peoples - First Nations, Métis, and Inuit - respecting and acknowledging their distinct cultures, histories, rights, laws, and governments.
+type: STRING
+role: CONFIGURATION
+
+[Item #7]
+name: gov.legacy.domain
+orderWeight: 6
+value: https://www2.gov.bc.ca
+type: STRING
+role: CONFIGURATION
+
+[Item #8]
+name: granville.theme.enabled
+orderWeight: 7
+value: false
+type: STRING
+role: CONFIGURATION
+
+[Item #9]
+name: intranet.siteToggle.enabled
+orderWeight: 8
+value: true
+type: STRING
+role: CONFIGURATION
+
+[Item #10]
+name: gov.theme.heading
+orderWeight: 9
+value: Services and information topics
+type: STRING
+role: CONFIGURATION
+
+[Item #11]
+name: intranet.theme.heading
+orderWeight: 10
+value: Topics
+type: STRING
+role: CONFIGURATION
+
+[Item #12]
+name: intranet.legacy.domain
+orderWeight: 11
+value: https://intranet.gov.bc.ca
+type: STRING
+role: CONFIGURATION
+
+[Item #13]
+name: intranet.bypass.router.urls
+orderWeight: 12
+value: /analytics
+type: STRING
+role: CONFIGURATION
+
+[Item #14]
+name: gov.prefix.page
+orderWeight: 13
+value: https://www2.gov.bc.ca
+type: STRING
+role: CONFIGURATION
+
+[Item #15]
+name: gov.prefix.asset
+orderWeight: 14
+value: https://www2.gov.bc.ca
+type: STRING
+role: CONFIGURATION
+
+[Item #16]
+name: intranet.prefix.page
+orderWeight: 15
+value: http://142.34.189.8:1776/intranet
+type: STRING
+role: CONFIGURATION
+
+[Item #17]
+name: intranet.prefix.asset
+orderWeight: 16
+value: http://142.34.189.8:1776
+type: STRING
+role: CONFIGURATION
+
+--- children ---
+[Item #1]
+id: a491bf9749ca4e148feebf18cea752cd
+name: body
+orderWeight: 0
+type: BODY
+
+[Item #2]
+id: 5b6a9412229b489585b2f291998025c6
+name: Header/Footer
+orderWeight: 0
+type: HEADER_FOOTER
+
+--- fields ---
+[Item #1]
+name: Hide Page From Navigation
+orderWeight: 0
+value: false
+type: BOOLEAN
+role: CONFIGURATION
+
+[Item #2]
+name: Hide Navigation
+orderWeight: 0
+value: false
+type: BOOLEAN
+role: CONFIGURATION
+
+[Item #3]
+name: Disallow Search Indexing
+orderWeight: 0
+value: false
+type: BOOLEAN
+role: CONFIGURATION
+
+[Item #4]
+name: Hide Page from IA
+orderWeight: 0
+value: false
+type: BOOLEAN
+role: CONFIGURATION
+
+[Item #5]
+name: didYouFind
+orderWeight: 0
+value: Is this page useful?
+type: STRING
+role: CONTENT
+
+[Item #6]
+name: didYouFindYes
+orderWeight: 0
+value: Yes
+type: STRING
+role: CONTENT
+
+[Item #7]
+name: didYouFindNo
+orderWeight: 0
+value: No
+type: STRING
+role: CONTENT
+
+[Item #8]
+name: thankYou
+orderWeight: 0
+value: Thank you for your response.
+type: STRING
+role: CONTENT
+
+[Item #9]
+name: submitFeedback
+orderWeight: 0
+value: Submit Feedback
+type: STRING
+role: CONTENT
+
+--- children ---
+[Item #1]
+id: 8469f9a9943940d684b648dd315fa16f
+name: body
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: Title
+orderWeight: 0
+value: Header/Footer
+type: STRING
+role: CONTENT
+
+--- children ---
+[Item #1]
+id: 202888c785b04e359f85aa318abc79fa
+name: List of Links
+orderWeight: 0
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: List Title
+orderWeight: 1
+value: Header
+type: STRING
+role: CONTENT
+
+--- children ---
+[Item #1]
+id: 9a2d8bfd4f194e05bb60ef00a5ceeb21
+name: Link
+orderWeight: 0
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Careers & MyHR
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: /gov/content/careers-myhr
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: No
+type: OPTION
+role: CONTENT
+
+[Item #2]
+id: 914579852ea84ae59e821d3fb711cbca
+name: Link
+orderWeight: 1
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Services
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: /gov/content/home/services-a-z
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: No
+type: OPTION
+role: CONTENT
+
+[Item #3]
+id: 4e67cdad5c774bad8e37cde09301bbcb
+name: Link
+orderWeight: 2
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Forms
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: /gov/content/home/forms-a-z
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: No
+type: OPTION
+role: CONTENT
+
+[Item #4]
+id: 03b0a1411a9d43a999c7fd96adbae2f4
+name: Link
+orderWeight: 3
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: News
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: https://news.gov.bc.ca/
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: No
+type: OPTION
+role: CONTENT
+
+[Item #5]
+id: c47afd1a0547435c962ac39d5897c72c
+name: Link
+orderWeight: 4
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Contact us
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: /gov/content/home/get-help-with-government-services
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: No
+type: OPTION
+role: CONTENT
+
+[Item #2]
+id: 27b53840330e4f5fb61bf81a9b021185
+name: Logo
+orderWeight: 0
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Image Alt Text
+orderWeight: 1
+value: Government of B.C.
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Image
+orderWeight: 2
+value: /StaticWebResources/static/gov3/images/gov_bc_logo.svg
+type: STRING
+role: LINK
+
+[Item #3]
+name: Image Link
+orderWeight: 3
+value: /gov/content/home
+type: STRING
+role: LINK
+
+[Item #3]
+id: 3c1c6ce64e1d43c9b22c21cbafd34b3e
+name: List of Links
+orderWeight: 1
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: List Title
+orderWeight: 1
+value: Connect With Us
+type: STRING
+role: CONTENT
+
+--- children ---
+[Item #1]
+id: e5b083a408df403386bc962741aa7899
+name: Link
+orderWeight: 0
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: BC Gov News
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: https://news.gov.bc.ca/
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: Yes
+type: OPTION
+role: CONTENT
+
+[Item #2]
+id: 2822a85b703642c195a74a0df1ceec18
+name: Link
+orderWeight: 1
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Facebook
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: https://www.facebook.com/BCProvincialGovernment
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: Yes
+type: OPTION
+role: CONTENT
+
+[Item #3]
+id: cbd418e031a545b7bb18a91a04d4f5d6
+name: Link
+orderWeight: 2
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Twitter
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: https://twitter.com/BCGovNews
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: Yes
+type: OPTION
+role: CONTENT
+
+[Item #4]
+id: 7bc0be93259744c6962e0c0c008a048f
+name: Link
+orderWeight: 3
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Photos
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: https://www.flickr.com/photos/bcgovphotos/
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: Yes
+type: OPTION
+role: CONTENT
+
+[Item #5]
+id: cd5025e7c2404d28b3316231488593ea
+name: Link
+orderWeight: 4
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Videos
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: https://www.youtube.com/user/ProvinceofBC
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: Yes
+type: OPTION
+role: CONTENT
+
+[Item #6]
+id: 082b61053d944cb6881628d3c9f92247
+name: Link
+orderWeight: 5
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Newsletters
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: https://news.gov.bc.ca/newsletters
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: Yes
+type: OPTION
+role: CONTENT
+
+[Item #7]
+id: c7ec39591d994fa0809928909b32f13d
+name: Link
+orderWeight: 6
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: RSS feeds
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: https://news.gov.bc.ca/connect#rss
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: Yes
+type: OPTION
+role: CONTENT
+
+[Item #4]
+id: 4744934488a44a97aca59432b30551b8
+name: List of Links
+orderWeight: 2
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: List Title
+orderWeight: 1
+value: Government A-Z
+type: STRING
+role: CONTENT
+
+--- children ---
+[Item #1]
+id: 7eb9dea7fcfc41b8af55cd8690832c50
+name: Link
+orderWeight: 0
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Services A-Z
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: /gov/content/home/services-a-z
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: No
+type: OPTION
+role: CONTENT
+
+[Item #2]
+id: 88bb5fda4ed24136a7465de8e4587de4
+name: Link
+orderWeight: 1
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Organizations A-Z
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: /gov/content/home/organizations-a-z
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: No
+type: OPTION
+role: CONTENT
+
+[Item #3]
+id: c07662776bd94d84a995a9f167c02522
+name: Link
+orderWeight: 2
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Forms A-Z
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: /gov/content/home/forms-a-z
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: No
+type: OPTION
+role: CONTENT
+
+[Item #5]
+id: 2fa60bd3cf5f4ae88e2795da5014af0f
+name: List of Links
+orderWeight: 3
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: List Title
+orderWeight: 1
+value: Footer
+type: STRING
+role: CONTENT
+
+--- children ---
+[Item #1]
+id: 9d6740443be144f9b35acf31e513ca85
+name: Link
+orderWeight: 0
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Home
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: /gov/content/home
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: No
+type: OPTION
+role: CONTENT
+
+[Item #2]
+id: 1458af5616b04eb293cb5498b67b2e82
+name: Link
+orderWeight: 1
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: About gov.bc.ca
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: /gov/content/about-gov-bc-ca
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: No
+type: OPTION
+role: CONTENT
+
+[Item #3]
+id: 2484ba4be3fd4a41808655d1a58cfcf4
+name: Link
+orderWeight: 2
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Disclaimer
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: /gov/content/home/disclaimer
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: No
+type: OPTION
+role: CONTENT
+
+[Item #4]
+id: 666378a3675642a9afa2803738edd8ef
+name: Link
+orderWeight: 3
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Privacy
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: /gov/content/home/privacy
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: No
+type: OPTION
+role: CONTENT
+
+[Item #5]
+id: b6fecd0041e44fc78a22d3f48204e648
+name: Link
+orderWeight: 4
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Accessibility
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: /gov/content/home/accessible-government
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: No
+type: OPTION
+role: CONTENT
+
+[Item #6]
+id: 549be1901a6d4a4bbf950364b2c85ef9
+name: Link
+orderWeight: 5
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Copyright
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: /gov/content/home/copyright
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: No
+type: OPTION
+role: CONTENT
+
+[Item #7]
+id: b1e11ab7712748c6a0f5111745c03eac
+name: Link
+orderWeight: 6
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Link Title
+orderWeight: 1
+value: Contact us
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: Link URL
+orderWeight: 2
+value: /gov/content/home/get-help-with-government-services
+type: STRING
+role: LINK
+
+[Item #3]
+name: Open New Window
+orderWeight: 3
+value: No
+type: OPTION
+role: CONTENT
+
+[Item #2]
+id: None
+name: Header Search
+orderWeight: 1
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Search Page URL
+orderWeight: 0
+value: /gov/search
+type: NODE
+role: GENERIC
+
+[Item #2]
+name: Search Page URL ID
+orderWeight: 0
+value: 2E4C7D6BCAA4470AAAD2DCADF662E6A0
+type: NODE
+role: GENERIC
+
+[Item #3]
+id: None
+name: Site Navigation
+orderWeight: 0
+type: SITE_NAVIGATION
+
+--- children ---
+[Item #1]
+id: None
+name: Employment, business and economic development
+orderWeight: 14
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: 7a44184534dc43f3a2583c05a84e7912
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: 820A75B4A1AF426C9450E4ADF0D1D783
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/employment-business
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_13_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: theme_13_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=2F755F92ED224D02AD29E2EDA5EA0328
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value: /StaticWebResources/static/gov3/images/theme/menu/thememenu_employment.png
+type: STRING
+role: GENERIC
+
+[Item #2]
+id: None
+name: Data and information management
+orderWeight: 16
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: f5950e7b2316453980208bb8eb1edef2
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: 1AE507FCE6A943199E9D2F8A7748B2B5
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/data
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_data_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: data_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=3BABFFCCDAC74CDDBB56C987DDF4AD04
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value: /assets/gov/data/thememenu_data.png
+type: STRING
+role: GENERIC
+
+[Item #3]
+id: None
+name: Birth, adoption, death, marriage and divorce
+orderWeight: 17
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: 16d8fb37be624497bd8eee4885b38438
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: 90CA4E68AA484987B5B74587FB5B0764
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/life-events
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_3_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: theme_3_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=37BDCD618E4744998F9385A3F3248A06
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value: /StaticWebResources/static/gov3/images/theme/menu/thememenu_births.png
+type: STRING
+role: GENERIC
+
+[Item #4]
+id: None
+name: British Columbians and our governments
+orderWeight: 19
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: 0c2b4804086a4150aae74e4f08b3c3f0
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: 1BCDDAA9ED30487784F29ADC800E5DCB
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/governments
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_1_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: theme_1_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=401A7ECBB734485FA6AF857F78DD4363
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value: /StaticWebResources/static/gov3/images/theme/menu/thememenu_britishcolumbians.png
+type: STRING
+role: GENERIC
+
+[Item #5]
+id: None
+name: Education and training
+orderWeight: 20
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: 8c5508a3d2b3482b8b9fbfa2135b2ee3
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: 205DE48374094784A6B7202B9614CD69
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/education-training
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_4_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: theme_4_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=84131A7374544958A7C2832226CC8A81
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value:
+type: STRING
+role: GENERIC
+
+[Item #6]
+id: None
+name: Farming, natural resources and industry
+orderWeight: 22
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: 445ddacb71c94373bb54a65b909a7e2a
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: A389E49687F74532A306249A234EDF29
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/industry
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_12_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: theme_12_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=EA290C5F07E04D849502A930F680EA7F
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value: /StaticWebResources/static/gov3/images/theme/menu/thememenu_farmingindustry.png
+type: STRING
+role: GENERIC
+
+[Item #7]
+id: None
+name: Driving and transportation
+orderWeight: 23
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: a1a3819cf8044f3dbdef007e89865868
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: A7B3531E17F34FE9AF2B5553E2BE212A
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/transportation
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_5_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: theme_5_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=B183E708FB894403AE4914B67D5FCB31
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value: /StaticWebResources/static/gov3/images/theme/menu/thememenu_driving.png
+type: STRING
+role: GENERIC
+
+[Item #8]
+id: None
+name: Family and social supports
+orderWeight: 24
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: 88db7804b1224408a2c4033136c5dc7c
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: FD488413D1B74C5B931B2F6B0E00C61D
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/family-social-supports
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_15_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: theme_15_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=C2674D9D2EE3408FBE2D43FAD6893DBD
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value: /StaticWebResources/static/gov3/images/theme/menu/thememenu_familysocial.png
+type: STRING
+role: GENERIC
+
+[Item #9]
+id: None
+name: Health
+orderWeight: 26
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: 56156a2cf78045fd9d558a7910cb323e
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: EC75FD2ECA044D2C9CCB32361905348A
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/health
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_2_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: theme_2_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=19E4894872F646948A1C7E4D8CE73863
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value: /StaticWebResources/static/gov3/images/theme/menu/thememenu_health.png
+type: STRING
+role: GENERIC
+
+[Item #10]
+id: None
+name: Environmental protection and sustainability
+orderWeight: 27
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: 90fbe0afbd6d4fe38941d1882d72c700
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: 8C53E2851B294D8AA18340E4C6A54D7D
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/environment
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_11_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: theme_11_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=CC87D3202359407F8A5C1DBEADC22A0F
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value: /StaticWebResources/static/gov3/images/theme/menu/thememenu_environment.png
+type: STRING
+role: GENERIC
+
+[Item #11]
+id: None
+name: Housing and tenancy
+orderWeight: 29
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: 29b1173bbaf2493085efb4507ddffba1
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: 981982BEA20341FB81B611675492A653
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/housing-tenancy
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_9_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: theme_9_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=B2F6526DAAF848A5A45CED4CF8B44509
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value: /StaticWebResources/static/gov3/images/theme/menu/thememenu_housing.png
+type: STRING
+role: GENERIC
+
+[Item #12]
+id: None
+name: Law, crime and justice
+orderWeight: 30
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: ffac731e591b4c40ada3c6d3e9559f40
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: 24EEB3C6DAAE49B5AA4EB916CF5C930F
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/justice
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_7_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: theme_7_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=2C2D870D983944B5B7EE026C36963D11
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value: /StaticWebResources/static/gov3/images/theme/menu/thememenu_lawcrime.png
+type: STRING
+role: GENERIC
+
+[Item #13]
+id: None
+name: Public safety and emergency services
+orderWeight: 32
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: cde66b8272ea47e39ad3d6edd5929b39
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: B1756B8E482543338B861392B8615439
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/safety
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_6_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: theme_6_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=80CC1FB1480D4F59B28322CBE2927585
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value: /StaticWebResources/static/gov3/images/theme/menu/thememenu_publicsafety.png
+type: STRING
+role: GENERIC
+
+[Item #14]
+id: None
+name: Sports, recreation, arts and culture
+orderWeight: 36
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: 4c8e7b20dc5e47269528a52be0f0e9b3
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: 7E0910AE24054217AFE2E62D117A2687
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/sports-culture
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_10_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: theme_10_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=3610728B0FC142458338578D37774BE8
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value: /StaticWebResources/static/gov3/images/theme/menu/thememenu_sportsrec.png
+type: STRING
+role: GENERIC
+
+[Item #15]
+id: None
+name: Taxes and tax credits
+orderWeight: 37
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: 528c14a6b546401b9fb911b14f9ab6ca
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: 32D3378678624AF8A905FEE82427C82F
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/taxes
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_8_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: theme_8_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=364A046E32874A31B702AC4357032A64
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value: /StaticWebResources/static/gov3/images/theme/menu/thememenu_taxes.png
+type: STRING
+role: GENERIC
+
+[Item #16]
+id: None
+name: Tourism and immigration
+orderWeight: 39
+type: PAGE_COMPONENT
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: d4ec139b9f37452183ba7f6ba7f03157
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: D6E183CFBFED46B282F80342BA3F69D0
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: type
+orderWeight: 3
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: subtype
+orderWeight: 4
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: depth
+orderWeight: 5
+value: 1
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #8]
+name: hideFromNavigation
+orderWeight: 7
+value: false
+type: STRING
+role: GENERIC
+
+[Item #9]
+name: hideFromIA
+orderWeight: 8
+value: false
+type: STRING
+role: GENERIC
+
+[Item #10]
+name: url
+orderWeight: 9
+value: /gov/content/tourism-immigration
+type: STRING
+role: GENERIC
+
+[Item #11]
+name: searchCollectionName
+orderWeight: 10
+value: theme_14_collection
+type: STRING
+role: GENERIC
+
+[Item #12]
+name: searchFrontEndName
+orderWeight: 11
+value: theme_14_frontend
+type: STRING
+role: GENERIC
+
+[Item #13]
+name: searchPage
+orderWeight: 12
+value: /gov/search?id=9DF0542A58C34D15829D07C5CD4286AC
+type: STRING
+role: GENERIC
+
+[Item #14]
+name: themeMenuImage
+orderWeight: 13
+value: /StaticWebResources/static/gov3/images/theme/menu/thememenu_tourism.png
+type: STRING
+role: GENERIC
+
+[Item #4]
+id: None
+name: Site Notifications
+orderWeight: 0
+type: NOTIFICATION
+
+--- children ---
+[Item #1]
+id: c68bd3b065114c5fbc31f71882c9dd1c
+name: Notification
+orderWeight: 0
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Type
+orderWeight: 0
+value: Black Banner
+type: OPTION
+role: CONTENT
+
+[Item #2]
+name: Enabled
+orderWeight: 0
+value: Off
+type: OPTION
+role: CONTENT
+
+[Item #3]
+name: Message
+orderWeight: 1
+value: &lt;p&gt;&lt;span&gt;&lt;span dir=&quot;auto&quot;&gt;&lt;a href=&quot;/gov/content/family-social-supports/youth-and-family-services/tumbler-ridge?utm_campaign=BANNER_GOV&quot; target=&quot;_self&quot;&gt;&lt;strong&gt;Tumbler Ridge response&lt;/strong&gt;&lt;/a&gt;: Supports are available to people in Tumbler Ridge and across B.C. who are affected by the tragedy&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+type: WYSIWYG
+role: CONTENT
+
+[Item #2]
+id: e419dfae6a714694b48bd908b135878c
+name: Notification
+orderWeight: 0
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: Enabled
+orderWeight: 0
+value: Off
+type: OPTION
+role: CONTENT
+
+[Item #2]
+name: Type
+orderWeight: 0
+value: Info
+type: OPTION
+role: CONTENT
+
+[Item #3]
+name: Message
+orderWeight: 1
+value: &lt;p&gt;&lt;span&gt;Flooding&amp;nbsp;is&amp;nbsp;impacting many areas of B.C. &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://www.emergencyinfobc.gov.bc.ca&quot; target=&quot;_self&quot;&gt;Find evacuation information&lt;/a&gt;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://www.drivebc.ca&quot; target=&quot;_self&quot;&gt;travel updates&lt;/a&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;and &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;/gov/content/safety/emergency-management/preparedbc/evacuation-recovery/emergency-recovery&quot; target=&quot;_self&quot;&gt;support &lt;/a&gt;&lt;a href=&quot;https://www2.gov.bc.ca/gov/content/safety/emergency-management/preparedbc/evacuation-recovery/emergency-recovery&quot;&gt;resources&lt;/a&gt;&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;
+type: WYSIWYG
+role: CONTENT
+
+[Item #5]
+id: None
+name: Chatbot Configurations
+orderWeight: 0
+type: CONFIGURATION
+
+--- fields ---
+[Item #1]
+name: chatbot.frontendId
+orderWeight: 0
+value: GOV-COVID
+type: STRING
+role: CONFIGURATION
+
+[Item #2]
+name: chatbot.attributes.title
+orderWeight: 0
+value: BC COVID Assistant
+type: STRING
+role: CONFIGURATION
+
+[Item #3]
+name: chatbot.attributes.icon
+orderWeight: 0
+value: /StaticWebResources/static/gov3/images/chatbot_icon.svg
+type: STRING
+role: CONFIGURATION
+
+[Item #4]
+name: chatbot.attributes.language
+orderWeight: 0
+value: en
+type: STRING
+role: CONFIGURATION
+
+[Item #5]
+name: chatbot.attributes.additional
+orderWeight: 0
+value: wait-open
+type: STRING
+role: CONFIGURATION
+
+[Item #6]
+name: chatbot.sessionId.unique.length
+orderWeight: 0
+value: 20
+type: STRING
+role: CONFIGURATION
+
+[Item #7]
+name: chatbot.initial.message2
+orderWeight: 0
+value: Type a question or click on a popular topic below. To see these again later, type "<strong>popular topics</strong>".<br><br><strong>Don't include personal details</strong> such as your name, contact information, or identity numbers.
+type: STRING
+role: CONFIGURATION
+
+[Item #8]
+name: chatbot.initial.message3
+orderWeight: 0
+
+--- value ---
+type: chips
+
+--- options ---
+[Item #1]
+text: More languages
+
+[Item #2]
+text: COVID-19 vaccine
+
+[Item #3]
+text: COVID-19 testing
+
+[Item #4]
+text: Travel information
+
+[Item #5]
+text: COVID-19 data
+
+[Item #6]
+text: Financial supports
+
+[Item #7]
+text: BC's Restart
+
+[Item #8]
+text: Connect by phone
+type: STRING
+role: CONFIGURATION
+
+[Item #9]
+name: chatbot.attributes.agentId
+orderWeight: 0
+value: 645410a8-4d5e-4045-b9d7-cb0e1f61b64d
+type: STRING
+role: CONFIGURATION
+
+[Item #10]
+name: chatbot.css.variables
+orderWeight: 0
+value: --df-messenger-button-titlebar-color:#F38489; --df-messenger-send-icon:#F38489;
+type: STRING
+role: CONFIGURATION
+
+[Item #11]
+name: chatbot.enabled.pagetypes
+orderWeight: 0
+value: BC Gov Home,BC Gov Theme,Topic,Service,Enhanced Search
+type: STRING
+role: CONFIGURATION
+
+[Item #12]
+name: chatbot.initial.message
+orderWeight: 0
+value: Hello, this is an automated Digital Assistant. Click or tap to ask a general question about $agentSubject.
+type: STRING
+role: CONFIGURATION
+
+[Item #13]
+name: chatbot.session.id
+orderWeight: 0
+value: GOV-COVID_CcVXpt34bw79tTRMMxrF
+type: STRING
+role: CONFIGURATION
+
+[Item #6]
+id: None
+name: Breadcrumb
+orderWeight: 0
+type: BREADCRUMB
+
+--- children ---
+[Item #1]
+id: None
+name: Home
+orderWeight: 0
+type: BREADCRUMB
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: 374ad99a05e0485d9badfb91fbaba2c1
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: 7782AB62B4364F439B6A258F4D730786
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: url
+orderWeight: 3
+value: /gov/content/home
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: type
+orderWeight: 4
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: subtype
+orderWeight: 5
+value: HOME
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #2]
+id: None
+name: British Columbians and our governments
+orderWeight: 0
+type: BREADCRUMB
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: 0c2b4804086a4150aae74e4f08b3c3f0
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 94cd76ac0e204d9187bde5c34adbbdb6
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: 1BCDDAA9ED30487784F29ADC800E5DCB
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: url
+orderWeight: 3
+value: /gov/content/governments
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: type
+orderWeight: 4
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: subtype
+orderWeight: 5
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #3]
+id: None
+name: Strategies, plans and initiatives
+orderWeight: 0
+type: BREADCRUMB
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: 06b1cb59e54e406ca6f665d38f3a3f23
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 0c2b4804086a4150aae74e4f08b3c3f0
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: FCF067811855E3B53710C9A084F94066
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: url
+orderWeight: 3
+value: /gov/content/governments/about-the-bc-government
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: type
+orderWeight: 4
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: subtype
+orderWeight: 5
+value: THEME
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #4]
+id: None
+name: Open information
+orderWeight: 0
+type: BREADCRUMB
+
+--- fields ---
+[Item #1]
+name: id
+orderWeight: 0
+value: df8492284ab145ad87c20ba437da6f77
+type: STRING
+role: GENERIC
+
+[Item #2]
+name: parentId
+orderWeight: 1
+value: 4f1af919ce4b494086a3b0d007bfcb94
+type: STRING
+role: GENERIC
+
+[Item #3]
+name: sourceId
+orderWeight: 2
+value: A885FF9C65F24F5FAA1FA5535342D87F
+type: STRING
+role: GENERIC
+
+[Item #4]
+name: url
+orderWeight: 3
+value: /gov/content/governments/about-the-bc-government/open-government/open-information
+type: STRING
+role: GENERIC
+
+[Item #5]
+name: type
+orderWeight: 4
+value: PAGE
+type: STRING
+role: GENERIC
+
+[Item #6]
+name: subtype
+orderWeight: 5
+value: TOPIC
+type: STRING
+role: GENERIC
+
+[Item #7]
+name: olrPage
+orderWeight: 6
+value: false
+type: BOOLEAN
+role: GENERIC
+
+[Item #7]
+id: None
+name: search_page
+orderWeight: 0
+type: SEARCH_INSTANCE
+
+--- children ---
+[Item #1]
+id: None
+name: page_items
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: title
+orderWeight: 0
+value: Search for Information Releases (FOI Requests)
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: authFlag
+orderWeight: 0
+value: N
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: description
+orderWeight: 1
+value: Welcome to B.C.'s catalogue of public information. Here is a summary of information requested and processed ordered by most recently published.
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: searchPageId
+orderWeight: 2
+value: f472c9a01aca4136abb7ebaa8a2373c1
+type: STRING
+role: CONFIGURATION
+
+--- attrs ---
+id: f472c9a01aca4136abb7ebaa8a2373c1
+
+[Item #5]
+name: qVal
+orderWeight: 3
+value: FOI
+type: STRING
+role: CONTENT
+
+[Item #6]
+name: searchPath
+orderWeight: 4
+value: /gov/search
+type: STRING
+role: CONTENT
+
+[Item #7]
+name: sourcePageId
+orderWeight: 5
+value: 4BAD1D13C68243D1960FECBBF7B8B091
+type: STRING
+role: CONTENT
+
+[Item #8]
+name: display_title_disc_flag
+orderWeight: 6
+value: true
+type: STRING
+role: CONFIGURATION
+
+[Item #9]
+name: searchPlaceholder
+orderWeight: 5
+value: Enter a keyword or phrase to search
+type: STRING
+role: CONFIGURATION
+
+[Item #10]
+name: appName
+orderWeight: 7
+value: gov
+type: STRING
+role: CONFIGURATION
+
+[Item #2]
+id: None
+name: search_body
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: recommended_links
+orderWeight: 0
+value: Recommended Links
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: refine_by
+orderWeight: 0
+value: Refine by
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: show_more
+orderWeight: 0
+value: More
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: show_more_param
+orderWeight: 0
+value: {0} More
+type: STRING
+role: CONTENT
+
+[Item #5]
+name: show_less
+orderWeight: 0
+value: Less
+type: STRING
+role: CONTENT
+
+--- children ---
+[Item #1]
+id: None
+name: search_tools
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: requestURI
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: siteSearchText
+orderWeight: 0
+value: Search entire site
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: govMainSearchId
+orderWeight: 0
+value: 2E4C7D6BCAA4470AAAD2DCADF662E6A0
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: requestPath
+orderWeight: 0
+value: /gov/search
+type: STRING
+role: CONTENT
+
+[Item #5]
+name: relatedQueries
+orderWeight: 0
+value: You could also try:
+type: STRING
+role: CONTENT
+
+[Item #6]
+name: resetMsg
+orderWeight: 0
+value: Reset
+type: STRING
+role: CONTENT
+
+[Item #7]
+name: searchToolsLabel
+orderWeight: 0
+value: Search Tools
+type: STRING
+role: CONTENT
+
+[Item #8]
+name: searchToolsTo
+orderWeight: 0
+value: To
+type: STRING
+role: CONTENT
+
+[Item #9]
+name: searchToolsFrom
+orderWeight: 0
+value: From
+type: STRING
+role: CONTENT
+
+[Item #10]
+name: searchToolsSubmit
+orderWeight: 0
+value: Submit
+type: STRING
+role: CONTENT
+
+[Item #11]
+name: anyTime
+orderWeight: 0
+value: Any time
+type: STRING
+role: CONTENT
+
+[Item #12]
+name: today
+orderWeight: 0
+value: Today
+type: STRING
+role: CONTENT
+
+[Item #13]
+name: pastSevenDays
+orderWeight: 0
+value: Past 7 days
+type: STRING
+role: CONTENT
+
+[Item #14]
+name: pastThirtyDays
+orderWeight: 0
+value: Past 30 days
+type: STRING
+role: CONTENT
+
+[Item #15]
+name: pastNinetyDays
+orderWeight: 0
+value: Past 90 days
+type: STRING
+role: CONTENT
+
+[Item #16]
+name: customRange
+orderWeight: 0
+value: Custom Range...
+type: STRING
+role: CONTENT
+
+[Item #17]
+name: bestMatch
+orderWeight: 0
+value: Sorted by best match
+type: STRING
+role: CONTENT
+
+[Item #18]
+name: mostRecent
+orderWeight: 0
+value: Sorted by most recent
+type: STRING
+role: CONTENT
+
+[Item #19]
+name: sortedBy
+orderWeight: 0
+value: Sorted by {0}
+type: STRING
+role: CONTENT
+
+[Item #20]
+name: dateInputPlaceholder
+orderWeight: 0
+value: YYYY-MM-DD
+type: STRING
+role: CONTENT
+
+[Item #21]
+name: showMore
+orderWeight: 0
+value: [... Show more]
+type: STRING
+role: CONTENT
+
+[Item #22]
+name: showLess
+orderWeight: 0
+value: [Show less]
+type: STRING
+role: CONTENT
+
+--- children ---
+[Item #1]
+id: None
+name: Result Tab Component
+orderWeight: 10
+type: SEARCH_INSTANCE_TAB
+
+--- fields ---
+[Item #1]
+name: tab_id
+orderWeight: 0
+value: 1
+type: STRING
+role: CONFIGURATION
+
+[Item #2]
+name: configLabel
+orderWeight: 0
+value: Web
+type: STRING
+role: CONFIGURATION
+
+[Item #3]
+name: expand_search_flag
+orderWeight: 0
+value: N
+type: STRING
+role: CONFIGURATION
+
+[Item #4]
+name: map_template
+orderWeight: 0
+value: __unused__
+type: STRING
+role: CONFIGURATION
+
+[Item #5]
+name: search_by_daterange_flag
+orderWeight: 0
+value: Y
+type: STRING
+role: CONFIGURATION
+
+[Item #6]
+name: show_more_desc_flag
+orderWeight: 0
+value: N
+type: STRING
+role: CONFIGURATION
+
+[Item #7]
+name: show_url_flag
+orderWeight: 0
+value: N
+type: STRING
+role: CONFIGURATION
+
+[Item #8]
+name: sort_option_flag
+orderWeight: 0
+value: D
+type: STRING
+role: CONFIGURATION
+
+[Item #9]
+name: sort_option_metadata
+orderWeight: 0
+value: __unused__
+type: STRING
+role: CONFIGURATION
+
+[Item #2]
+id: None
+name: QueryParams
+orderWeight: 0
+type: GENERIC
+
+--- fields ---
+[Item #1]
+name: sourcePageId
+orderWeight: 0
+value: 4BAD1D13C68243D1960FECBBF7B8B091
+type: STRING
+role: CONFIGURATION
+
+[Item #2]
+name: tabId
+orderWeight: 0
+value: 1
+type: STRING
+role: CONFIGURATION
+
+[Item #3]
+name: sortParam
+orderWeight: 0
+value: None
+type: STRING
+role: CONFIGURATION
+
+[Item #4]
+name: fullQStringWithParams
+orderWeight: 0
+value: FOI
+type: STRING
+role: CONFIGURATION
+
+[Item #5]
+name: qVal
+orderWeight: 0
+value: FOI
+type: STRING
+role: CONFIGURATION
+
+[Item #6]
+name: requestPage
+orderWeight: 0
+value: 1
+type: STRING
+role: CONFIGURATION
+
+[Item #7]
+name: searchInstanceComponentId
+orderWeight: 0
+value: f472c9a01aca4136abb7ebaa8a2373c1
+type: STRING
+role: CONFIGURATION
+
+[Item #8]
+name: filterDateEndParam
+orderWeight: 0
+value: None
+type: STRING
+role: CONFIGURATION
+
+[Item #9]
+name: requestAllResults
+orderWeight: 0
+value: None
+type: STRING
+role: CONFIGURATION
+
+[Item #10]
+name: filterDateStartParam
+orderWeight: 0
+value: None
+type: STRING
+role: CONFIGURATION
+
+[Item #11]
+name: filterDateParam
+orderWeight: 0
+value: None
+type: STRING
+role: CONFIGURATION
+
+[Item #12]
+name: expandFacetNav
+orderWeight: 0
+value: None
+type: STRING
+role: CONFIGURATION
+
+[Item #2]
+id: None
+name: search_facets
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: selectedFacetsURLParam
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+--- children ---
+[Item #1]
+id: None
+name: search_facet_existing_filters
+orderWeight: 0
+type: BODY
+
+[Item #2]
+id: None
+name: search_facet_group
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: group_name
+orderWeight: 0
+value: Name
+type: STRING
+role: CONTENT
+
+--- children ---
+[Item #1]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Boyle, Christine
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Aindividual_name%3DBoyle%2C+Christine&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #2]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 5
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Godfrey, Debbie
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Aindividual_name%3DGodfrey%2C+Debbie&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #3]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Morissette, Steve
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Aindividual_name%3DMorissette%2C+Steve&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #4]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 5
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Pokorny, Peter
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Aindividual_name%3DPokorny%2C+Peter&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #5]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 5
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Wood, Heather
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Aindividual_name%3DWood%2C+Heather&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #6]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Wood, Jessica
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Aindividual_name%3DWood%2C+Jessica&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #7]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 3
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Yung, Terry
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Aindividual_name%3DYung%2C+Terry&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #8]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 10
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Zacharuk, Christina
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Aindividual_name%3DZacharuk%2C+Christina&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #3]
+id: None
+name: search_facet_group
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: group_name
+orderWeight: 0
+value: Ministry
+type: STRING
+role: CONTENT
+
+--- children ---
+[Item #1]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 162
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Aboriginal Relations and Reconciliation
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DAboriginal+Relations+and+Reconciliation&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #2]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 244
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Advanced Education
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DAdvanced+Education&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #3]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 26
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Advanced Education, Innovation and Technology
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DAdvanced+Education%2C+Innovation+and+Technology&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #4]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 279
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Advanced Education, Skills and Training
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DAdvanced+Education%2C+Skills+and+Training&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #5]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 426
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Agriculture
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DAgriculture&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #6]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 181
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Agriculture and Food
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DAgriculture+and+Food&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #7]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 94
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Agriculture, Food and Fisheries
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DAgriculture%2C+Food+and+Fisheries&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #8]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 700
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Attorney General
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DAttorney+General&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #9]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: BC Corrections
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DBC+Corrections&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #10]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 328
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: BC Public Service Agency
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DBC+Public+Service+Agency&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #11]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 18
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Board Resourcing and Development Office
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DBoard+Resourcing+and+Development+Office&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #12]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 715
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Children and Family Development
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DChildren+and+Family+Development&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #13]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 540
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Citizens' Services
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DCitizens%27+Services&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #14]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 138
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Citizens' Services and Open Government
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DCitizens%27+Services+and+Open+Government&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #15]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 248
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Community, Sport and Cultural Development
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DCommunity%2C+Sport+and+Cultural+Development&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #16]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 56
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Coroners Service of BC
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DCoroners+Service+of+BC&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #17]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 27
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Crown Agencies Secretariat
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DCrown+Agencies+Secretariat&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #18]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 3
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Declaration Act Secretariat
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DDeclaration+Act+Secretariat&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #19]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 617
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Education
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DEducation&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #20]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 237
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Education and Child Care
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DEducation+and+Child+Care&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #21]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 82
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Emergency Management and Climate Readiness
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DEmergency+Management+and+Climate+Readiness&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #22]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 100
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Emergency Management BC
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DEmergency+Management+BC&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #23]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 9
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Energy and Climate Solutions
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DEnergy+and+Climate+Solutions&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #24]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 316
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Energy and Mines
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DEnergy+and+Mines&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #25]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 379
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Energy, Mines and Low Carbon Innovation
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DEnergy%2C+Mines+and+Low+Carbon+Innovation&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #26]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 111
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Energy, Mines and Natural Gas
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DEnergy%2C+Mines+and+Natural+Gas&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #27]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 241
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Energy, Mines and Petroleum Resources
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DEnergy%2C+Mines+and+Petroleum+Resources&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #28]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1032
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Environment
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DEnvironment&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #29]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 390
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Environment and Climate Change Strategy
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DEnvironment+and+Climate+Change+Strategy&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #30]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 110
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Environment and Parks
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DEnvironment+and+Parks&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #31]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 86
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Environmental Assessment Office
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DEnvironmental+Assessment+Office&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #32]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2227
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Finance
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DFinance&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #33]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 627
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Forests
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DForests&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #34]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 794
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Forests, Lands and Natural Resource Operations
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DForests%2C+Lands+and+Natural+Resource+Operations&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #35]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 734
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Forests, Lands, Natural Resource Operations and Rural Development
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DForests%2C+Lands%2C+Natural+Resource+Operations+and+Rural+Development&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #36]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 892
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Government Communications and Public Engagement
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DGovernment+Communications+and+Public+Engagement&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #37]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1654
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Health
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DHealth&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #38]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 142
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Housing
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DHousing&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #39]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 27
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Housing and Municipal Affairs
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DHousing+and+Municipal+Affairs&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #40]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 354
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Indigenous Relations and Reconciliation
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DIndigenous+Relations+and+Reconciliation&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #41]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Infrastructure
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DInfrastructure&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #42]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 163
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: International Trade
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DInternational+Trade&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #43]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 41
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Jobs, Economic Development and Competitiveness
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DJobs%2C+Economic+Development+and+Competitiveness&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #44]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 75
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Jobs, Economic Development and Innovation
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DJobs%2C+Economic+Development+and+Innovation&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #45]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 121
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Jobs, Economic Recovery and Innovation
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DJobs%2C+Economic+Recovery+and+Innovation&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #46]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 45
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Jobs, Tourism and Innovation
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DJobs%2C+Tourism+and+Innovation&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #47]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 302
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Jobs, Tourism and Skills Training
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DJobs%2C+Tourism+and+Skills+Training&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #48]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 145
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Jobs, Trade and Technology
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DJobs%2C+Trade+and+Technology&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #49]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 742
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Justice
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DJustice&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #50]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 300
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Labour
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DLabour&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #51]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 128
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Labour, Citizens' Services and Open Government
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DLabour%2C+Citizens%27+Services+and+Open+Government&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #52]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 10
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Land, Water and Resource Stewardship
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DLand%2C+Water+and+Resource+Stewardship&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #53]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 132
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Liquor Distribution Branch
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DLiquor+Distribution+Branch&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #54]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 206
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Mental Health and Addictions
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMental+Health+and+Addictions&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #55]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 11
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Mining and Critical Minerals
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMining+and+Critical+Minerals&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #56]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 8
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Agriculture and Food
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Agriculture+and+Food&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #57]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Attorney General
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Attorney+General&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #58]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Children and Family Development (Generals)
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Children+and+Family+Development+%28Generals%29&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #59]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 3
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Education and Child Care
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Education+and+Child+Care&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #60]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Emergency Management and Climate Readiness
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Emergency+Management+and+Climate+Readiness&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #61]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 3
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Energy and Climate Solutions
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Energy+and+Climate+Solutions&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #62]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 7
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Environment and Parks
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Environment+and+Parks&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #63]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 6
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Finance
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Finance&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #64]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 6
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Forests
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Forests&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #65]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 8
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Health
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Health&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #66]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Housing and Municipal Affairs
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Housing+and+Municipal+Affairs&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #67]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Indigenous Relations and Reconciliation
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Indigenous+Relations+and+Reconciliation&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #68]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 3
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Jobs and Economic Growth
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Jobs+and+Economic+Growth&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #69]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Labour
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Labour&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #70]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 3
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Mining and Critical Minerals
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Mining+and+Critical+Minerals&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #71]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Post-Secondary and Future Skills
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Post-Secondary+and+Future+Skills&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #72]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 6
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Public Safety and Solicitor General
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Public+Safety+and+Solicitor+General&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #73]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Social Development and Poverty Reduction
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Social+Development+and+Poverty+Reduction&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #74]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 8
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Transportation and Transit
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Transportation+and+Transit&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #75]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 4
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Ministry of Water, Land and Resource Stewardship
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMinistry+of+Water%2C+Land+and+Resource+Stewardship&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #76]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 210
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Municipal Affairs
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMunicipal+Affairs&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #77]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 199
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Municipal Affairs and Housing
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DMunicipal+Affairs+and+Housing&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #78]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 198
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Natural Gas Development
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DNatural+Gas+Development&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #79]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2022
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Office of the Premier
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DOffice+of+the+Premier&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #80]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 104
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Post-Secondary Education and Future Skills
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DPost-Secondary+Education+and+Future+Skills&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #81]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 956
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Public Safety and Solicitor General
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DPublic+Safety+and+Solicitor+General&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #82]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 76
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Small Business and Red Tape Reduction
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DSmall+Business+and+Red+Tape+Reduction&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #83]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 51
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Social Development
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DSocial+Development&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #84]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 323
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Social Development and Poverty Reduction
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DSocial+Development+and+Poverty+Reduction&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #85]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 138
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Social Development and Social Innovation
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DSocial+Development+and+Social+Innovation&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #86]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 398
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Technology, Innovation and Citizens' Services
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DTechnology%2C+Innovation+and+Citizens%27+Services&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #87]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 172
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Tourism, Arts and Culture
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DTourism%2C+Arts+and+Culture&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #88]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 190
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Tourism, Arts, Culture and Sport
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DTourism%2C+Arts%2C+Culture+and+Sport&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #89]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1814
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Transportation and Infrastructure
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DTransportation+and+Infrastructure&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #90]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 96
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Transportation and Transit
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DTransportation+and+Transit&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #91]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 4
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Transportation Investment Corporation
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DTransportation+Investment+Corporation&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #92]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 220
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: Water, Land and Resource Stewardship
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Adc.contributor%3DWater%2C+Land+and+Resource+Stewardship&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #4]
+id: None
+name: search_facet_group
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: group_name
+orderWeight: 0
+value: Year
+type: STRING
+role: CONTENT
+
+--- children ---
+[Item #1]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 456
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2011
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2011&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #2]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1183
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2012
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2012&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #3]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1458
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2013
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2013&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #4]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1664
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2014
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2014&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #5]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1376
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2015
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2015&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #6]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1695
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2016
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2016&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #7]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2081
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2017
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2017&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #8]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2040
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2018
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2018&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #9]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2675
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2019
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2019&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #10]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1809
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2020
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2020&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #11]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1656
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2021
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2021&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #12]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2403
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2022
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2022&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #13]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2218
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2023
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2023&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #14]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1402
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2024
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2024&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #15]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 673
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2025
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2025&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #16]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 228
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2026
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Ayear%3D2026&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #5]
+id: None
+name: search_facet_group
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: group_name
+orderWeight: 0
+value: Month
+type: STRING
+role: CONTENT
+
+--- children ---
+[Item #1]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2233
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 1
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D1&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #2]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 01
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D01&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #3]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2284
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 2
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D2&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #4]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 02
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D02&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #5]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2725
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 3
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D3&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #6]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2228
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 4
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D4&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #7]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2195
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 5
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D5&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #8]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1817
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 6
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D6&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #9]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 77
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 06
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D06&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #10]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1852
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 7
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D7&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #11]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 7
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 07
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D07&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #12]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2020
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 8
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D8&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #13]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1667
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 9
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D9&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #14]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1916
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 10
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D10&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #15]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 2005
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 11
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D11&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #16]
+id: None
+name: facet
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: count
+orderWeight: 0
+value: 1989
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: title
+orderWeight: 0
+value: 12
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: path
+orderWeight: 0
+value: /gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI%2Binmeta%3Amonth%3D12&tab=1
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: isSelected
+orderWeight: 0
+value: false
+type: STRING
+role: CONTENT
+
+[Item #3]
+id: None
+name: search_results
+orderWeight: 0
+type: BODY
+
+--- children ---
+[Item #1]
+id: None
+name: result
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: recordUid
+orderWeight: 0
+value: MOE-2025-51918
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: searchDetailPageSourceId
+orderWeight: 0
+value: 26EE74C124B8476EA280E7A3C823A2D8
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: displayUrl
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/[...]/MOE-2025-51918/openinfo/MOE-2025-51918.html
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: url
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/openinfopub/packages/MOE-2025-51918/openinfo/MOE-2025-51918.html
+type: STRING
+role: CONTENT
+
+[Item #5]
+name: title
+orderWeight: 0
+value: FOI Request - MOE-2025-51918
+type: STRING
+role: CONTENT
+
+[Item #6]
+name: description
+orderWeight: 0
+value: A copy of the Human Wildlife Conflict Reports (HWCR) and all correspondence (emails, notes, minister briefings, conference calls, briefing notes, etc) related to the grizzly bear which was relocated twice from the sunshine coast in September 2024. (Date Range for Record Search: From 9/1/2024 To 10/31/2024)
+type: STRING
+role: CONTENT
+
+[Item #7]
+name: descriptionSource
+orderWeight: 0
+value: M
+type: STRING
+role: CONFIGURATION
+
+[Item #8]
+name: descriptionVisibleSize
+orderWeight: 0
+value: 255
+type: STRING
+role: CONFIGURATION
+
+[Item #9]
+name: fileTypeExtension
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #10]
+name: position
+orderWeight: 0
+value: 1
+type: STRING
+role: CONTENT
+
+[Item #11]
+name: number_of_results
+orderWeight: 0
+value: 10000
+type: STRING
+role: CONTENT
+
+[Item #12]
+name: rank
+orderWeight: 0
+value: 77.92583
+type: STRING
+role: CONTENT
+
+[Item #13]
+name: query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #14]
+name: prev_query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #15]
+name: fq_category
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #16]
+name: mes_key
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #17]
+name: Applicant Type
+orderWeight: 0
+value: Individual
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #18]
+name: Ministry
+orderWeight: 0
+value: Ministry of Environment and Parks
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #19]
+name: Fees paid by applicant
+orderWeight: 0
+value: $0.00
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #20]
+name: Publication Date
+orderWeight: 0
+value: 2026-07-10
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #2]
+id: None
+name: result
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: recordUid
+orderWeight: 0
+value: DAS-2025-52762
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: searchDetailPageSourceId
+orderWeight: 0
+value: 26EE74C124B8476EA280E7A3C823A2D8
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: displayUrl
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/[...]/DAS-2025-52762/openinfo/DAS-2025-52762.html
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: url
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/openinfopub/packages/DAS-2025-52762/openinfo/DAS-2025-52762.html
+type: STRING
+role: CONTENT
+
+[Item #5]
+name: title
+orderWeight: 0
+value: FOI Request - DAS-2025-52762
+type: STRING
+role: CONTENT
+
+[Item #6]
+name: description
+orderWeight: 0
+value: Please provide copies of any documents showing the acquisition of art by your public body. Responsive documents include but are not limited to: receipts, invoices, etc. Eliminate duplicates, including email chains and provide final version only, or last draft version where no final version exists. (Date Range for Record Search: From 1/1/2025 To 12/9/2025)
+type: STRING
+role: CONTENT
+
+[Item #7]
+name: descriptionSource
+orderWeight: 0
+value: M
+type: STRING
+role: CONFIGURATION
+
+[Item #8]
+name: descriptionVisibleSize
+orderWeight: 0
+value: 255
+type: STRING
+role: CONFIGURATION
+
+[Item #9]
+name: fileTypeExtension
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #10]
+name: position
+orderWeight: 0
+value: 2
+type: STRING
+role: CONTENT
+
+[Item #11]
+name: number_of_results
+orderWeight: 0
+value: 10000
+type: STRING
+role: CONTENT
+
+[Item #12]
+name: rank
+orderWeight: 0
+value: 78.12818
+type: STRING
+role: CONTENT
+
+[Item #13]
+name: query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #14]
+name: prev_query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #15]
+name: fq_category
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #16]
+name: mes_key
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #17]
+name: Applicant Type
+orderWeight: 0
+value: Interest Group
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #18]
+name: Ministry
+orderWeight: 0
+value: Declaration Act Secretariat
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #19]
+name: Fees paid by applicant
+orderWeight: 0
+value: $0.00
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #20]
+name: Publication Date
+orderWeight: 0
+value: 2026-07-09
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #3]
+id: None
+name: result
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: recordUid
+orderWeight: 0
+value: PSS-2025-52562
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: searchDetailPageSourceId
+orderWeight: 0
+value: 26EE74C124B8476EA280E7A3C823A2D8
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: displayUrl
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/[...]/PSS-2025-52562/openinfo/PSS-2025-52562.html
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: url
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/openinfopub/packages/PSS-2025-52562/openinfo/PSS-2025-52562.html
+type: STRING
+role: CONTENT
+
+[Item #5]
+name: title
+orderWeight: 0
+value: FOI Request - PSS-2025-52562
+type: STRING
+role: CONTENT
+
+[Item #6]
+name: description
+orderWeight: 0
+value: Fire Inspection Report and, if not included in the report, any other record stating the cause of the fire and severity of damages to 2176 Dockside Way, Nanaimo BC from the fire on 2025-NOV-02.
+type: STRING
+role: CONTENT
+
+[Item #7]
+name: descriptionSource
+orderWeight: 0
+value: M
+type: STRING
+role: CONFIGURATION
+
+[Item #8]
+name: descriptionVisibleSize
+orderWeight: 0
+value: 255
+type: STRING
+role: CONFIGURATION
+
+[Item #9]
+name: fileTypeExtension
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #10]
+name: position
+orderWeight: 0
+value: 3
+type: STRING
+role: CONTENT
+
+[Item #11]
+name: number_of_results
+orderWeight: 0
+value: 10000
+type: STRING
+role: CONTENT
+
+[Item #12]
+name: rank
+orderWeight: 0
+value: 78.76282
+type: STRING
+role: CONTENT
+
+[Item #13]
+name: query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #14]
+name: prev_query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #15]
+name: fq_category
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #16]
+name: mes_key
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #17]
+name: Applicant Type
+orderWeight: 0
+value: Individual
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #18]
+name: Ministry
+orderWeight: 0
+value: Ministry of Public Safety and Solicitor General
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #19]
+name: Fees paid by applicant
+orderWeight: 0
+value: $0.00
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #20]
+name: Publication Date
+orderWeight: 0
+value: 2026-07-08
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #4]
+id: None
+name: result
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: recordUid
+orderWeight: 0
+value: WLR-2025-51243
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: searchDetailPageSourceId
+orderWeight: 0
+value: 26EE74C124B8476EA280E7A3C823A2D8
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: displayUrl
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/[...]/WLR-2025-51243/openinfo/WLR-2025-51243.html
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: url
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/openinfopub/packages/WLR-2025-51243/openinfo/WLR-2025-51243.html
+type: STRING
+role: CONTENT
+
+[Item #5]
+name: title
+orderWeight: 0
+value: FOI Request - WLR-2025-51243
+type: STRING
+role: CONTENT
+
+[Item #6]
+name: description
+orderWeight: 0
+value: All records regarding any financial summaries, briefings, or itemized breakdowns of the total expenditures related to the costs associated with the cull of coyotes in Stanley Park, Vancouver, that took place between 2020 and 2022. (Date Range for Record Search: From 1/1/2020 To 12/4/2023)
+type: STRING
+role: CONTENT
+
+[Item #7]
+name: descriptionSource
+orderWeight: 0
+value: M
+type: STRING
+role: CONFIGURATION
+
+[Item #8]
+name: descriptionVisibleSize
+orderWeight: 0
+value: 255
+type: STRING
+role: CONFIGURATION
+
+[Item #9]
+name: fileTypeExtension
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #10]
+name: position
+orderWeight: 0
+value: 4
+type: STRING
+role: CONTENT
+
+[Item #11]
+name: number_of_results
+orderWeight: 0
+value: 10000
+type: STRING
+role: CONTENT
+
+[Item #12]
+name: rank
+orderWeight: 0
+value: 78.2698
+type: STRING
+role: CONTENT
+
+[Item #13]
+name: query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #14]
+name: prev_query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #15]
+name: fq_category
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #16]
+name: mes_key
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #17]
+name: Applicant Type
+orderWeight: 0
+value: Interest Group
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #18]
+name: Ministry
+orderWeight: 0
+value: Ministry of Water, Land and Resource Stewardship
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #19]
+name: Fees paid by applicant
+orderWeight: 0
+value: $0.00
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #20]
+name: Publication Date
+orderWeight: 0
+value: 2026-07-07
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #5]
+id: None
+name: result
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: recordUid
+orderWeight: 0
+value: FIN-2025-52607
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: searchDetailPageSourceId
+orderWeight: 0
+value: 26EE74C124B8476EA280E7A3C823A2D8
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: displayUrl
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/[...]/FIN-2025-52607/openinfo/FIN-2025-52607.html
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: url
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/openinfopub/packages/FIN-2025-52607/openinfo/FIN-2025-52607.html
+type: STRING
+role: CONTENT
+
+[Item #5]
+name: title
+orderWeight: 0
+value: FOI Request - FIN-2025-52607
+type: STRING
+role: CONTENT
+
+[Item #6]
+name: description
+orderWeight: 0
+value: A current, machine-readable extract (CSV or Excel) of all retailers in British Columbia who hold an active Tobacco Retail Authorization (TRA) under the Tobacco Tax Act and related regulations. Please include, for each retail location: Legal business name; Trade / operating name; TRA number; TRA status (active / suspended / cancelled); Full location address (street, city, postal code, province); Date TRA issued; Date of last modification or renewal; Any available field describing outlet type (e.g. convenience store, gas station, supermarket, tobacconist), if stored. Retail locations only, not wholesalers. (Date Range for Record Search: From 11/30/2024 To 12/2/2025)
+type: STRING
+role: CONTENT
+
+[Item #7]
+name: descriptionSource
+orderWeight: 0
+value: M
+type: STRING
+role: CONFIGURATION
+
+[Item #8]
+name: descriptionVisibleSize
+orderWeight: 0
+value: 255
+type: STRING
+role: CONFIGURATION
+
+[Item #9]
+name: fileTypeExtension
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #10]
+name: position
+orderWeight: 0
+value: 5
+type: STRING
+role: CONTENT
+
+[Item #11]
+name: number_of_results
+orderWeight: 0
+value: 10000
+type: STRING
+role: CONTENT
+
+[Item #12]
+name: rank
+orderWeight: 0
+value: 77.726585
+type: STRING
+role: CONTENT
+
+[Item #13]
+name: query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #14]
+name: prev_query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #15]
+name: fq_category
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #16]
+name: mes_key
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #17]
+name: Applicant Type
+orderWeight: 0
+value: Business
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #18]
+name: Ministry
+orderWeight: 0
+value: Ministry of Finance
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #19]
+name: Fees paid by applicant
+orderWeight: 0
+value: $0.00
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #20]
+name: Publication Date
+orderWeight: 0
+value: 2026-07-06
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #6]
+id: None
+name: result
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: recordUid
+orderWeight: 0
+value: HTH-2025-50295
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: searchDetailPageSourceId
+orderWeight: 0
+value: 26EE74C124B8476EA280E7A3C823A2D8
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: displayUrl
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/[...]/HTH-2025-50295/openinfo/HTH-2025-50295.html
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: url
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/openinfopub/packages/HTH-2025-50295/openinfo/HTH-2025-50295.html
+type: STRING
+role: CONTENT
+
+[Item #5]
+name: title
+orderWeight: 0
+value: FOI Request - HTH-2025-50295
+type: STRING
+role: CONTENT
+
+[Item #6]
+name: description
+orderWeight: 0
+value: Final briefing and decision notes related to anesthesia services in BC, including any of the following: anesthesiologist compensation, negotiations, and/or staffing; anesthesia care team model; nurse anesthetists; and anesthesia assistants. (Date Range for Record Search: From 1/1/2018 To 2/12/2025)
+type: STRING
+role: CONTENT
+
+[Item #7]
+name: descriptionSource
+orderWeight: 0
+value: M
+type: STRING
+role: CONFIGURATION
+
+[Item #8]
+name: descriptionVisibleSize
+orderWeight: 0
+value: 255
+type: STRING
+role: CONFIGURATION
+
+[Item #9]
+name: fileTypeExtension
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #10]
+name: position
+orderWeight: 0
+value: 6
+type: STRING
+role: CONTENT
+
+[Item #11]
+name: number_of_results
+orderWeight: 0
+value: 10000
+type: STRING
+role: CONTENT
+
+[Item #12]
+name: rank
+orderWeight: 0
+value: 78.39904
+type: STRING
+role: CONTENT
+
+[Item #13]
+name: query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #14]
+name: prev_query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #15]
+name: fq_category
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #16]
+name: mes_key
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #17]
+name: Applicant Type
+orderWeight: 0
+value: Interest Group
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #18]
+name: Ministry
+orderWeight: 0
+value: Ministry of Health
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #19]
+name: Fees paid by applicant
+orderWeight: 0
+value: $0.00
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #20]
+name: Publication Date
+orderWeight: 0
+value: 2026-07-03
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #7]
+id: None
+name: result
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: recordUid
+orderWeight: 0
+value: FIN-2025-52077
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: searchDetailPageSourceId
+orderWeight: 0
+value: 26EE74C124B8476EA280E7A3C823A2D8
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: displayUrl
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/[...]/FIN-2025-52077/openinfo/FIN-2025-52077.html
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: url
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/openinfopub/packages/FIN-2025-52077/openinfo/FIN-2025-52077.html
+type: STRING
+role: CONTENT
+
+[Item #5]
+name: title
+orderWeight: 0
+value: FOI Request - FIN-2025-52077
+type: STRING
+role: CONTENT
+
+[Item #6]
+name: description
+orderWeight: 0
+value: Please provide a summary document listing the cliff number, date, and title/issue of all briefing notes (excluding those proactively disclosed under Directive 01-2022), issue notes, advice notes, and meeting notes that mention Debbie Godfrey, Head of the BC Public Service Agency, and/or George Heyman. (Date Range for Record Search: From 4/1/2025 To 10/1/2025)
+type: STRING
+role: CONTENT
+
+[Item #7]
+name: descriptionSource
+orderWeight: 0
+value: M
+type: STRING
+role: CONFIGURATION
+
+[Item #8]
+name: descriptionVisibleSize
+orderWeight: 0
+value: 255
+type: STRING
+role: CONFIGURATION
+
+[Item #9]
+name: fileTypeExtension
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #10]
+name: position
+orderWeight: 0
+value: 7
+type: STRING
+role: CONTENT
+
+[Item #11]
+name: number_of_results
+orderWeight: 0
+value: 10000
+type: STRING
+role: CONTENT
+
+[Item #12]
+name: rank
+orderWeight: 0
+value: 78.180984
+type: STRING
+role: CONTENT
+
+[Item #13]
+name: query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #14]
+name: prev_query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #15]
+name: fq_category
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #16]
+name: mes_key
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #17]
+name: Applicant Type
+orderWeight: 0
+value: Individual
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #18]
+name: Ministry
+orderWeight: 0
+value: Ministry of Finance
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #19]
+name: Fees paid by applicant
+orderWeight: 0
+value: $0.00
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #20]
+name: Publication Date
+orderWeight: 0
+value: 2026-07-02
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #8]
+id: None
+name: result
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: recordUid
+orderWeight: 0
+value: WLR-2025-51947
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: searchDetailPageSourceId
+orderWeight: 0
+value: 26EE74C124B8476EA280E7A3C823A2D8
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: displayUrl
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/[...]/WLR-2025-51947/openinfo/WLR-2025-51947.html
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: url
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/openinfopub/packages/WLR-2025-51947/openinfo/WLR-2025-51947.html
+type: STRING
+role: CONTENT
+
+[Item #5]
+name: title
+orderWeight: 0
+value: FOI Request - WLR-2025-51947
+type: STRING
+role: CONTENT
+
+[Item #6]
+name: description
+orderWeight: 0
+value: Provide any and all records relating to the water licenses CO67645 and CO66096, as well as any other licenses issued to the properties 9196 Station Road and 9192 Station Road, Trail BC, including but not limited to the issuance, transfer, apportionment, or other alterations of these water licenses, and any correspondence related to the same for use in litigation. (Date Range for Record Search: From 1/1/1985 To 9/1/2025)
+type: STRING
+role: CONTENT
+
+[Item #7]
+name: descriptionSource
+orderWeight: 0
+value: M
+type: STRING
+role: CONFIGURATION
+
+[Item #8]
+name: descriptionVisibleSize
+orderWeight: 0
+value: 255
+type: STRING
+role: CONFIGURATION
+
+[Item #9]
+name: fileTypeExtension
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #10]
+name: position
+orderWeight: 0
+value: 8
+type: STRING
+role: CONTENT
+
+[Item #11]
+name: number_of_results
+orderWeight: 0
+value: 10000
+type: STRING
+role: CONTENT
+
+[Item #12]
+name: rank
+orderWeight: 0
+value: 78.07626
+type: STRING
+role: CONTENT
+
+[Item #13]
+name: query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #14]
+name: prev_query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #15]
+name: fq_category
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #16]
+name: mes_key
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #17]
+name: Applicant Type
+orderWeight: 0
+value: Individual
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #18]
+name: Ministry
+orderWeight: 0
+value: Ministry of Water, Land and Resource Stewardship
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #19]
+name: Fees paid by applicant
+orderWeight: 0
+value: $0.00
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #20]
+name: Publication Date
+orderWeight: 0
+value: 2026-06-30
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #9]
+id: None
+name: result
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: recordUid
+orderWeight: 0
+value: MOE-2025-52407
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: searchDetailPageSourceId
+orderWeight: 0
+value: 26EE74C124B8476EA280E7A3C823A2D8
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: displayUrl
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/[...]/MOE-2025-52407/openinfo/MOE-2025-52407.html
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: url
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/openinfopub/packages/MOE-2025-52407/openinfo/MOE-2025-52407.html
+type: STRING
+role: CONTENT
+
+[Item #5]
+name: title
+orderWeight: 0
+value: FOI Request - MOE-2025-52407
+type: STRING
+role: CONTENT
+
+[Item #6]
+name: description
+orderWeight: 0
+value: Copies of the following briefing notes: Cliff: 415464 Minister Davidson Environmental and regulatory challenges related to the safe management of end-of-life electric vehicle batteries (large lithium-ion batteries) EPD; Cliff: 416834 Minister Davidson Electric vehicle battery recycling in British Columbia EPD; Cliff: 416721 Minister Osborne Update re: Minister of Environment and Park’s decision on District of Tofino’s Single Use Item Regulation Amendment EPD (Date Range for Record Search: From 7/1/2025 To 7/31/2025)
+type: STRING
+role: CONTENT
+
+[Item #7]
+name: descriptionSource
+orderWeight: 0
+value: M
+type: STRING
+role: CONFIGURATION
+
+[Item #8]
+name: descriptionVisibleSize
+orderWeight: 0
+value: 255
+type: STRING
+role: CONFIGURATION
+
+[Item #9]
+name: fileTypeExtension
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #10]
+name: position
+orderWeight: 0
+value: 9
+type: STRING
+role: CONTENT
+
+[Item #11]
+name: number_of_results
+orderWeight: 0
+value: 10000
+type: STRING
+role: CONTENT
+
+[Item #12]
+name: rank
+orderWeight: 0
+value: 77.74976
+type: STRING
+role: CONTENT
+
+[Item #13]
+name: query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #14]
+name: prev_query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #15]
+name: fq_category
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #16]
+name: mes_key
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #17]
+name: Applicant Type
+orderWeight: 0
+value: Political Party
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #18]
+name: Ministry
+orderWeight: 0
+value: Ministry of Environment and Parks
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #19]
+name: Fees paid by applicant
+orderWeight: 0
+value: $0.00
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #20]
+name: Publication Date
+orderWeight: 0
+value: 2026-06-29
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #10]
+id: None
+name: result
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: recordUid
+orderWeight: 0
+value: OOP-2025-52213
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: searchDetailPageSourceId
+orderWeight: 0
+value: 26EE74C124B8476EA280E7A3C823A2D8
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: displayUrl
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/[...]/OOP-2025-52213/openinfo/OOP-2025-52213.html
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: url
+orderWeight: 0
+value: https://citz-foi-prod.objectstore.gov.bc.ca/openinfopub/packages/OOP-2025-52213/openinfo/OOP-2025-52213.html
+type: STRING
+role: CONTENT
+
+[Item #5]
+name: title
+orderWeight: 0
+value: FOI Request - OOP-2025-52213
+type: STRING
+role: CONTENT
+
+[Item #6]
+name: description
+orderWeight: 0
+value: Provide all communications regarding the government of Alberta's decision to be the proponent for a new oil pipeline to the west coast, including communication with the Alberta government. Communication includes, but is not limited to, emails, text messages, instant messages and briefing notes. (Date Range for Record Search: From 8/1/2025 To 10/1/2025)
+type: STRING
+role: CONTENT
+
+[Item #7]
+name: descriptionSource
+orderWeight: 0
+value: M
+type: STRING
+role: CONFIGURATION
+
+[Item #8]
+name: descriptionVisibleSize
+orderWeight: 0
+value: 255
+type: STRING
+role: CONFIGURATION
+
+[Item #9]
+name: fileTypeExtension
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #10]
+name: position
+orderWeight: 0
+value: 10
+type: STRING
+role: CONTENT
+
+[Item #11]
+name: number_of_results
+orderWeight: 0
+value: 10000
+type: STRING
+role: CONTENT
+
+[Item #12]
+name: rank
+orderWeight: 0
+value: 78.32859
+type: STRING
+role: CONTENT
+
+[Item #13]
+name: query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #14]
+name: prev_query_id
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #15]
+name: fq_category
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #16]
+name: mes_key
+orderWeight: 0
+value:
+type: STRING
+role: CONTENT
+
+[Item #17]
+name: Applicant Type
+orderWeight: 0
+value: Media
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #18]
+name: Ministry
+orderWeight: 0
+value: Office of the Premier
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #19]
+name: Fees paid by applicant
+orderWeight: 0
+value: $0.00
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #20]
+name: Publication Date
+orderWeight: 0
+value: 2026-06-26
+type: STRING
+role: METADATA_DISPLAY
+
+[Item #4]
+id: None
+name: recommendedLinksComponent
+orderWeight: 0
+type: SEARCH_RECOMMENDED_LINKS
+
+[Item #5]
+id: None
+name: relatedQueriesComponent
+orderWeight: 0
+type: SEARCH_RELATED_QUERIES
+
+[Item #6]
+id: None
+name: search_onebox
+orderWeight: 0
+type: BODY
+
+[Item #7]
+id: None
+name: pagination_info
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: total_results
+orderWeight: 0
+value: 10000
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: display_from
+orderWeight: 1
+value: 1
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: display_to
+orderWeight: 2
+value: 10
+type: STRING
+role: CONTENT
+
+[Item #4]
+name: q
+orderWeight: 3
+value: FOI
+type: STRING
+role: CONTENT
+
+[Item #5]
+name: no_results
+orderWeight: 0
+value: Your search - {0} - did not match any documents.
+type: STRING
+role: CONTENT
+
+[Item #6]
+name: no_results
+orderWeight: 0
+value: <p>Suggestions:</p><ul class="noResult_suggest"><li>Make sure all words are spelled correctly.</li><li>Try a different keyword.</li><li>Try more generic keywords.</li><li>Try removing some of the applied filters.</li></ul>
+type: STRING
+role: CONTENT
+
+[Item #7]
+name: showing_results
+orderWeight: 0
+value: Showing results {0} - {1} of {2} for {3}
+type: STRING
+role: CONTENT
+
+--- children ---
+[Item #1]
+id: None
+name: pagination_element
+orderWeight: 0
+type: BODY
+
+--- fields ---
+[Item #1]
+name: display_symbol
+orderWeight: 0
+value: 1
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: link_value
+orderWeight: 1
+value: /gov/search/?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI&tab=1&page=1
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: current_page
+orderWeight: 1
+value: true
+type: STRING
+role: CONTENT
+
+[Item #2]
+id: None
+name: pagination_element
+orderWeight: 1
+type: BODY
+
+--- fields ---
+[Item #1]
+name: display_symbol
+orderWeight: 0
+value: 2
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: link_value
+orderWeight: 1
+value: /gov/search/?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI&tab=1&page=2
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: current_page
+orderWeight: 1
+value: false
+type: STRING
+role: CONTENT
+
+[Item #3]
+id: None
+name: pagination_element
+orderWeight: 2
+type: BODY
+
+--- fields ---
+[Item #1]
+name: display_symbol
+orderWeight: 0
+value: 3
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: link_value
+orderWeight: 1
+value: /gov/search/?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI&tab=1&page=3
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: current_page
+orderWeight: 1
+value: false
+type: STRING
+role: CONTENT
+
+[Item #4]
+id: None
+name: pagination_element
+orderWeight: 3
+type: BODY
+
+--- fields ---
+[Item #1]
+name: display_symbol
+orderWeight: 0
+value: 4
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: link_value
+orderWeight: 1
+value: /gov/search/?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI&tab=1&page=4
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: current_page
+orderWeight: 1
+value: false
+type: STRING
+role: CONTENT
+
+[Item #5]
+id: None
+name: pagination_element
+orderWeight: 4
+type: BODY
+
+--- fields ---
+[Item #1]
+name: display_symbol
+orderWeight: 0
+value: 5
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: link_value
+orderWeight: 1
+value: /gov/search/?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI&tab=1&page=5
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: current_page
+orderWeight: 1
+value: false
+type: STRING
+role: CONTENT
+
+[Item #6]
+id: None
+name: pagination_element
+orderWeight: 5
+type: BODY
+
+--- fields ---
+[Item #1]
+name: display_symbol
+orderWeight: 0
+value: »
+type: STRING
+role: CONTENT
+
+[Item #2]
+name: link_value
+orderWeight: 1
+value: /gov/search/?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI&tab=1&page=2
+type: STRING
+role: CONTENT
+
+[Item #3]
+name: current_page
+orderWeight: 1
+value: false
+type: STRING
+role: CONTENT
+
+[Item #8]
+id: None
+name: metadata
+orderWeight: 0
+type: METADATA
+
+--- fields ---
+[Item #1]
+name: title
+orderWeight: 0
+value: Search for Information Releases (FOI Requests)
+type: STRING
+role: METADATA
+
+[Item #2]
+name: navigaton_title
+orderWeight: 0
+value: Search for Information Releases (FOI Requests)
+type: STRING
+role: METADATA
+
+[Item #3]
+name: DCTERMS.publisher
+orderWeight: 0
+value: Province of British Columbia
+type: STRING
+role: METADATA
+
+[Item #4]
+name: DCTERMS.created
+orderWeight: 0
+value: 2015-11-26
+type: STRING
+role: METADATA
+
+--- attrs ---
+scheme: W3CDTF
+
+[Item #5]
+name: DCTERMS.modified
+orderWeight: 0
+value: 2023-03-31
+type: STRING
+role: METADATA
+
+--- attrs ---
+scheme: W3CDTF
+
+[Item #6]
+name: DCTERMS:interactiveResource
+orderWeight: 0
+value: Enhanced Search
+type: STRING
+role: METADATA
+
+[Item #7]
+name: CMF_ContentType
+orderWeight: 0
+value: General Content
+type: STRING
+role: METADATA
+
+[Item #8]
+name: DCTERMS.language
+orderWeight: 0
+value: eng
+type: STRING
+role: METADATA
+
+--- attrs ---
+scheme: DCTERMS.ISO639-2
+
+[Item #9]
+name: security_classification
+orderWeight: 0
+value: Low
+type: STRING
+role: METADATA
+
+[Item #10]
+name: security_label
+orderWeight: 0
+value: Public
+type: STRING
+role: METADATA
+
+[Item #11]
+name: keywords
+orderWeight: 0
+value: Search OpenInfo FOI Requests
+type: STRING
+role: METADATA
+
+[Item #12]
+name: description
+orderWeight: 0
+value: Find all the details related to Information Releases.
+type: STRING
+role: METADATA
+
+[Item #13]
+name: DCTERMS.creator
+orderWeight: 0
+value: BC Public Service Agency
+type: STRING
+role: METADATA
+
+[Item #14]
+name: DCSext.creator
+orderWeight: 0
+value: BC Public Service Agency
+type: STRING
+role: METADATA
+
+[Item #15]
+name: MBCTERMS.subjectCategory
+orderWeight: 0
+value: Law and Legislation
+type: STRING
+role: METADATA
+
+[Item #16]
+name: DCTERMS.subject
+orderWeight: 0
+value: Access to information
+type: STRING
+role: METADATA
+
+--- attrs ---
+scheme: bcst
+
+[Item #17]
+name: DCTERMS.audience
+orderWeight: 0
+value: General Public
+type: STRING
+role: METADATA
+
+[Item #18]
+name: level1
+orderWeight: 0
+value: British Columbians and our governments
+type: STRING
+role: METADATA
+
+[Item #19]
+name: DCSext.level1
+orderWeight: 0
+value: British Columbians and our governments
+type: STRING
+role: METADATA
+
+[Item #20]
+name: level1_id
+orderWeight: 0
+value: 1BCDDAA9ED30487784F29ADC800E5DCB
+type: STRING
+role: METADATA
+
+[Item #21]
+name: level2
+orderWeight: 0
+value: Strategies plans and initiatives
+type: STRING
+role: METADATA
+
+[Item #22]
+name: DCSext.level2
+orderWeight: 0
+value: Strategies, plans and initiatives
+type: STRING
+role: METADATA
+
+[Item #23]
+name: level2_id
+orderWeight: 0
+value: FCF067811855E3B53710C9A084F94066
+type: STRING
+role: METADATA
+
+[Item #24]
+name: level3
+orderWeight: 0
+value: Open Government
+type: STRING
+role: METADATA
+
+[Item #25]
+name: DCSext.level3
+orderWeight: 0
+value: Open Government
+type: STRING
+role: METADATA
+
+[Item #26]
+name: level3_id
+orderWeight: 0
+value: B12B9E8B6ABE4292B67553461591DE9B
+type: STRING
+role: METADATA
+
+[Item #27]
+name: level4
+orderWeight: 0
+value: Open information
+type: STRING
+role: METADATA
+
+[Item #28]
+name: DCSext.level4
+orderWeight: 0
+value: Open information
+type: STRING
+role: METADATA
+
+[Item #29]
+name: level4_id
+orderWeight: 0
+value: A885FF9C65F24F5FAA1FA5535342D87F
+type: STRING
+role: METADATA
+
+[Item #30]
+name: level5
+orderWeight: 0
+value: Search for Information Releases (FOI Requests)
+type: STRING
+role: METADATA
+
+[Item #31]
+name: DCSext.level5
+orderWeight: 0
+value: Search for Information Releases (FOI Requests)
+type: STRING
+role: METADATA
+
+[Item #32]
+name: level5_id
+orderWeight: 0
+value: 4BAD1D13C68243D1960FECBBF7B8B091
+type: STRING
+role: METADATA
+
+[Item #33]
+name: current_page
+orderWeight: 0
+value: Search for Information Releases (FOI Requests)
+type: STRING
+role: METADATA
+
+[Item #34]
+name: DCSext.current_page
+orderWeight: 0
+value: Search for Information Releases (FOI Requests)
+type: STRING
+role: METADATA
+
+[Item #35]
+name: current_page_id
+orderWeight: 0
+value: 4BAD1D13C68243D1960FECBBF7B8B091
+type: STRING
+role: METADATA
+
+[Item #36]
+name: provinceTitle
+orderWeight: 0
+value: Province of British Columbia
+type: STRING
+role: METADATA
+
+[Item #37]
+name: servicedBy.correlationId
+orderWeight: 0
+value: c1fb4bc5-d2d8-4bdc-aa90-8517c3695ae0
+type: STRING
+role: METADATA
+
+[Item #38]
+name: servicedBy.hostname
+orderWeight: 0
+value: prod-cmf-metadata-rt-7bb78d55c-qf7xf
+type: STRING
+role: METADATA
+
+--- layout ---
+id: d57b08630fc94799897e9850a8f14627
+name: TEMPLATE_SEARCH
+
+--- container ---
+[Item #1]
+id: 0ea8df091c0b41178c66051321b93998
+name: SEARCH_CONTAINER_0_BREADCRUMBS
+width: 12
+orderWeight: 0
+
+--- cell ---
+[Item #1]
+id: d830617ea30447c297c23ed0384e2d7f
+name: SEARCH_BREADCRUMB
+orderWeight: 0
+component: BREADCRUMB
+
+[Item #2]
+id: 17552882d8524b0b9120f597338af434
+name: SEARCH_CONTAINER_1_SEARCH_PAGE_TITLE
+width: 12
+orderWeight: 1
+
+--- cell ---
+[Item #1]
+id: 20ba502c13b548cdaad319c96b857654
+name: SEARCH_PAGE_TITLE
+orderWeight: 0
+component: TITLE
+
+[Item #3]
+id: 414a34fd16e640bc8d00c7db8bdc29f9
+name: SEARCH_CONTAINER_2_SEARCH_PAGE_DESCRIPTION
+width: 12
+orderWeight: 2
+
+--- cell ---
+[Item #1]
+id: d4b60fa4abb74678bac5bfb39047ad36
+name: SEARCH_PAGE_DESCRIPTION
+orderWeight: 0
+component: DESCRIPTION
+
+[Item #4]
+id: 865d199458c2482bbd5fe146c830a712
+name: SEARCH_CONTAINER_4_ALL_SEARCH_CONTENT_ROW
+width: 12
+orderWeight: 4
+
+--- container ---
+[Item #1]
+id: 6be5a287fb7248e09b1bd8ea862b9f80
+name: SEARCH_CONTAINER_4_1_FACETS
+width: 3
+orderWeight: 1
+
+--- cell ---
+[Item #1]
+id: ecea84b20ed64514be358a8b75b8b4ac
+name: SEARCH_PAGE_FACETS
+orderWeight: 0
+component: SEARCH_FACET
+
+[Item #2]
+id: b7113a140070463daabc1b9b2f7b17b7
+name: SEARCH_CONTAINER_4_2_SEARCH_COMPONENTS_CONTAINER
+width: 9
+orderWeight: 2
+
+--- container ---
+[Item #1]
+id: 8fd8e9840fe24ec9bce142507ff9515c
+name: SEARCH_CONTAINER_4_2_1_SEARCH_BAR
+width: 12
+orderWeight: 1
+
+--- cell ---
+[Item #1]
+id: 24268d8c76ce43ab8d64337087312eb0
+name: SEARCH_PAGE_INLINE_SEARCH
+orderWeight: 0
+component: SEARCH_RESULTS_INPUT
+
+[Item #2]
+id: 738b7f5f7d8b42e8a3f14fb83b1e50b6
+name: SEARCH_CONTAINER_4_2_2_RESULTS_AND_ONEBOX_ROW
+width: 12
+orderWeight: 2
+
+--- container ---
+[Item #1]
+id: 50a16daa31f84855aa54192b6384a0cf
+name: SEARCH_CONTAINER_4_2_2_1_SEARCH_RESULTS
+width: None
+orderWeight: 1
+
+--- cell ---
+[Item #1]
+id: 85eb59606b8d4818b679a5b8f0a243eb
+name: SEARCH_PAGE_RESULTS
+orderWeight: 0
+component: SEARCH_RESULTS
+
+[Item #2]
+id: 39ba7f185b5c41dda9df39f6bb8ebc41
+name: SEARCH_CONTAINER_4_2_2_2_SEARCHONEBOX
+width: 3
+orderWeight: 2
+
+--- cell ---
+[Item #1]
+id: 26d5a60e2725441b9e03d30c6ab070b0
+name: SEARCH_PAGE_ONEBOX
+orderWeight: 0
+component: SEARCH_ONEBOX
+orderWeight: 17
+dateTime: 2026-07-13T16:26:17.170184854Z
+message: None
+__N_SSP: True
+page: /gov/search
+
+--- query ---
+id: 4BAD1D13C68243D1960FECBBF7B8B091
+q: FOI
+buildId: 4rb7YE6idH5oNApufPukM
+isFallback: False
+gssp: True
+locale: en
+
+--- locales ---
+[Item #1]
+en
+defaultLocale: en
