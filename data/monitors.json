@@ -28,5 +28,20 @@
     "last_changed": "2026-07-10T21:56:13.487199",
     "status": "success",
     "last_error": null
+  },
+  {
+    "id": "bc-foi-catalogue-5866",
+    "name": "BC FOI catalogue",
+    "url": "http://www2.gov.bc.ca/gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI",
+    "check_interval_mins": 60,
+    "sensitivity": "high",
+    "min_char_diff": 0,
+    "active": true,
+    "include_selectors": "",
+    "ignore_selectors": "",
+    "last_checked": null,
+    "last_changed": null,
+    "status": "pending",
+    "last_error": null
   }
 ]
