@@ -9,7 +9,7 @@
     "active": true,
     "include_selectors": "",
     "ignore_selectors": "",
-    "last_checked": "2026-07-14T09:51:52.208059",
+    "last_checked": "2026-07-14T11:21:50.295584",
     "last_changed": "2026-07-08T12:33:41.328374",
     "status": "success",
     "last_error": null
@@ -24,7 +24,7 @@
     "active": true,
     "include_selectors": "",
     "ignore_selectors": "",
-    "last_checked": "2026-07-14T09:51:52.660170",
+    "last_checked": "2026-07-14T11:21:50.562433",
     "last_changed": "2026-07-10T21:56:13.487199",
     "status": "success",
     "last_error": null
@@ -39,10 +39,10 @@
     "active": true,
     "include_selectors": "",
     "ignore_selectors": "",
-    "last_checked": "2026-07-14T09:51:55.197702",
+    "last_checked": "2026-07-14T11:21:50.978057",
     "last_changed": "2026-07-14T09:51:55.197702",
-    "status": "success",
-    "last_error": null
+    "status": "failed",
+    "last_error": "403 Client Error: Forbidden for url: https://www2.gov.bc.ca/gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI"
   },
   {
     "id": "bc-foi-catalogue-7713",
@@ -54,9 +54,9 @@
     "active": true,
     "include_selectors": "",
     "ignore_selectors": "",
-    "last_checked": "2026-07-14T09:52:08.893584",
+    "last_checked": "2026-07-14T11:21:52.482018",
     "last_changed": "2026-07-14T09:52:08.893584",
-    "status": "success",
-    "last_error": null
+    "status": "failed",
+    "last_error": "403 Client Error: Forbidden for url: https://www2.gov.bc.ca/gov/search?id=4BAD1D13C68243D1960FECBBF7B8B091&q=FOI"
   }
 ]
