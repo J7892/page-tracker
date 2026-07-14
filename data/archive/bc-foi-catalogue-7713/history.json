@@ -6,5 +6,13 @@
     "ratio": 1.0,
     "added": 0,
     "removed": 0
+  },
+  {
+    "timestamp": "2026-07-14T07:09:23.321764",
+    "changes_summary": "Similarity: 0.3444. Added 6880 lines, removed 6710 lines.",
+    "filename": "20260714_070923.txt",
+    "ratio": 0.3443820812934872,
+    "added": 6880,
+    "removed": 6710
   }
 ]
