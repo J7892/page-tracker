@@ -28,5 +28,20 @@
     "last_changed": "2026-07-17T19:20:34.636392",
     "status": "success",
     "last_error": null
+  },
+  {
+    "id": "foreign-influence-commiss-5251",
+    "name": "Foreign Influence Commiss",
+    "url": "https://www.canada.ca/en/foreign-influence-commissioner.html",
+    "check_interval_mins": 60,
+    "sensitivity": "medium",
+    "min_char_diff": 0,
+    "active": true,
+    "include_selectors": "",
+    "ignore_selectors": "",
+    "last_checked": null,
+    "last_changed": null,
+    "status": "pending",
+    "last_error": null
   }
 ]
