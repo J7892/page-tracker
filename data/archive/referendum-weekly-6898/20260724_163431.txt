@@ -1,0 +1,282 @@
+Skip to Content
+
+Search for
+
+OFS Login
+
+About Us
+
+Jobs
+
+Complaints
+
+Contact Us
+
+Search for
+
+Home
+
+Overview
+
+Financial Period
+
+Parties
+
+Constituency Associations
+
+Candidates
+
+Nomination Contests
+
+Nomination Contestants
+
+Leadership Contests
+
+Citizen Initiative Petitions
+
+Recall Petitions
+
+Third Party Advertisers
+
+Political Advertisers
+
+Election Advertisers
+
+Senate Advertisers
+
+Referendum Advertisers
+
+Initiative Petition Advertisers
+
+Contributor Search
+
+Contributions Data
+
+About  Us
+
+Facebook
+
+Twitter
+
+LinkedIn
+
+YouTube
+
+Home
+> Financial Disclosure
+> Third Party Advertisers
+> Referendum Advertisers
+
+Third Party Advertisers - Referendum
+
+Referendum Third Party Advertisers (RTPAs) can only advertise during Alberta referendums. After an RTPA has registered with Elections Alberta, the RTPA must file contribution reports each week of the referendum advertising period, and file a referendum advertising return within six months after Voting Day.
+For the 2026 Referendum, the advertising period runs from March 31, 2026 to October 19, 2026. Weekly contribution reports are due on Thursdays - the last due date is October 22. Our goal is to publish the reports on Fridays - the last publish date is scheduled for October 23. The RTPA financial return is due by Monday, April 19, 2027. Click on an RTPA name below to view more details.
+
+Third Party Advertiser - Referendum
+
+Referendum Advertising Period Contributions to Jul 23, 2026
+
+Let Alberta Decide
+Registered Jun 17, 2026
+
+$359,888.95
+
+Pathway to Independence
+Registered Jun 2, 2026
+
+$105,993.30
+
+Alberta's Voice
+Registered May 25, 2026
+
+$57,475.00
+
+Vote to Stay
+Registered Jun 2, 2026
+
+$51,696.29
+
+The Lavigne Show
+Registered Jun 2, 2026
+
+$37,263.45
+
+Alberta Land Consortium Inc.
+Registered Jun 2, 2026
+
+$32,055.00
+
+Alberta's Choice
+Registered Jun 5, 2026
+
+$28,027.96
+
+United Alberta Flags
+Registered Jun 19, 2026
+
+$26,247.00
+
+Alberta Women for Independence
+Registered Jun 2, 2026
+
+$23,682.60
+
+Together - "No!" (Public Interest Alberta)
+Registered Jun 2, 2026
+
+$20,640.00
+
+Alberta Advantage Immigrant Support Society (Our Alberta Advantage)
+Registered May 4, 2026
+
+$12,194.77
+
+Albertans4Freedom Inc.
+Registered Jun 24, 2026
+
+$7,995.38
+
+North Alberta Strong
+Registered Jun 24, 2026
+
+$6,500.00
+
+Alberta Radio Show
+Registered Jun 8, 2026
+
+$4,173.76
+
+Alberta Forward
+Registered Jun 22, 2026
+
+$2,385.00
+
+Alberta Lawyers for Judicial Independence
+Registered Jul 17, 2026
+
+$1,282.53
+
+United for Canada - UnitedFor.CA
+Registered Jun 26, 2026
+
+$1,205.00
+
+Alberta Nation Corporation (DBA Alberta Nation Events)
+Registered Jun 2, 2026
+
+$200.00
+
+NoThanks.Vote
+Registered Jul 2, 2026
+
+$0.00
+
+Alberta Liberty
+Registered Jul 2, 2026
+
+$0.00
+
+Stay Free Alberta
+Registered Jun 5, 2026
+
+$0.00
+
+Free Alberta From Overreach
+Registered Jun 26, 2026
+
+$0.00
+
+Freedom 2027
+Registered Jul 22, 2026
+
+$0.00
+
+Forever-Canadian Citizens Initiative Society
+Registered Jun 8, 2026
+
+$0.00
+
+TOTAL CONTRIBUTIONS:
+$778,905.99
+
+A Mark That Matters
+
+© Elections Alberta
+
+Privacy & Security
+
+Terms & Conditions
+
+Site Map
+
+Facebook
+
+Twitter
+
+LinkedIn
+
+YouTube
+
+Back to Top
+
+@context: https://schema.org
+
+--- @graph ---
+[Item #1]
+@type: Organization
+@id: https://www.elections.ab.ca/#organization
+name: Elections Alberta
+url: https://www.elections.ab.ca/
+
+--- logo ---
+@type: ImageObject
+@id: https://www.elections.ab.ca/#logo
+inLanguage: en-CA
+url: https:/elections.ab.ca/wp-content/uploads/OCEO_NoTag.jpg
+width: 1309
+height: 946
+caption: Elections Alberta
+
+--- image ---
+@id: https://www.elections.ab.ca/#logo
+
+[Item #2]
+@type: WebSite
+@id: https://www.elections.ab.ca/#website
+url: https://www.elections.ab.ca/
+name: Elections Alberta
+description: The office responsible for the administration of provincial elections, by-elections and referenda.
+
+--- publisher ---
+@id: https://www.elections.ab.ca/#organization
+
+--- potentialAction ---
+[Item #1]
+@type: SearchAction
+target: https://www.elections.ab.ca/?s={search_term_string}
+query-input: required name=search_term_string
+inLanguage: en-CA
+
+[Item #3]
+@type: WebPage
+@id: https://as-cac-webwin-01.azurewebsites.net/#webpage
+url: https://as-cac-webwin-01.azurewebsites.net/
+name: Elections Alberta | Chief Electoral Office
+
+--- isPartOf ---
+@id: https://www.elections.ab.ca/#website
+
+--- about ---
+@id: https://www.elections.ab.ca/#organization
+datePublished: 2015-01-13T23:55:19+00:00
+dateModified: 2020-04-23T19:56:25+00:00
+description: Welcome to the homepage of Elections Alberta, the office responsible for the administration of provincial elections, by-elections and referenda.
+inLanguage: en-CA
+
+--- potentialAction ---
+[Item #1]
+@type: ReadAction
+
+--- target ---
+[Item #1]
+https://as-cac-webwin-01.azurewebsites.net/
