@@ -6,5 +6,13 @@
     "ratio": 1.0,
     "added": 0,
     "removed": 0
+  },
+  {
+    "timestamp": "2026-08-12T23:34:19.621950",
+    "changes_summary": "Similarity: 0.9960. Added 2 lines, removed 2 lines.",
+    "filename": "20260812_233419.txt",
+    "ratio": 0.9960268948655256,
+    "added": 2,
+    "removed": 2
   }
 ]
