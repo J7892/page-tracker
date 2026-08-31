@@ -9,7 +9,7 @@
     "active": true,
     "include_selectors": "",
     "ignore_selectors": "",
-    "last_checked": "2026-08-31T14:44:40.893679",
+    "last_checked": "2026-08-31T20:35:11.579753",
     "last_changed": "2026-08-13T15:53:40.103098",
     "status": "success",
     "last_error": null
@@ -24,7 +24,7 @@
     "active": true,
     "include_selectors": "",
     "ignore_selectors": "",
-    "last_checked": "2026-08-31T14:44:41.518782",
+    "last_checked": "2026-08-31T20:35:12.086670",
     "last_changed": "2026-08-28T20:36:06.961071",
     "status": "success",
     "last_error": null
@@ -39,7 +39,7 @@
     "active": true,
     "include_selectors": "",
     "ignore_selectors": "",
-    "last_checked": "2026-08-31T14:45:11.610367",
+    "last_checked": "2026-08-31T20:35:42.208219",
     "last_changed": null,
     "status": "failed",
     "last_error": "HTTPSConnectionPool(host='www.canada.ca', port=443): Read timed out. (read timeout=30)"
